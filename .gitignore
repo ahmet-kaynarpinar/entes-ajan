@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.streamlit/secrets.toml
+*.yedek.*
+entes-ajan-yedek/
+veri_41_kategori/
+veri_41_kategori.zip

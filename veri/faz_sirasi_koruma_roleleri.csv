@@ -1,0 +1,4 @@
+Kategori,Seri,Model,Tip,Nötr Algılama Hatası,Faz Yokluğu,Faz Sırası Hatası,PTC Koruması,1 C/O Kontak,DIN2 Ray Montaj,İşletme Gerilimi,Bağlantı,Kontak Çıkışı,Boyut
+Faz Sırası Koruma Röleleri,FR,FR-02,Faz Sırası Koruma Rölesi,Var,Var,Var,Yok,Var,Var,230 VAC,3-faz / nötr,"1 CO, 8A, 2000 VA",36x90x60 mm
+Faz Sırası Koruma Röleleri,PT,PT-01,Termistör Rölesi,Yok,Yok,Yok,Var,Var,Var,230 VAC,1-faz / nötr,"1 CO, 5A, 1250 VA",36x90x60 mm
+Faz Sırası Koruma Röleleri,PTC,PTC-3,Üçlü Termistör Grubu (sensör),Yok,Yok,Yok,Yok,Yok,Yok,230 VAC,Belirsiz,Belirsiz,36x90x60 mm

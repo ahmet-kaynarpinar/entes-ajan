@@ -1,0 +1,4 @@
+Kategori,Seri,Model,Tip,Günlük Programlama,Haftalık Programlama,Minimum Anahtarlama Süresi,Rezerv Süresi,1 Röle Çıkışı,2 Röle Çıkışı,230 VAC,DIN I,DIN II,Program Sayısı
+Programlanabilir Zaman Saatleri,MCB-A,MCB-A,Analog Zaman Saati,Var,Yok,15 dk,100 s,Var,Yok,Var,Var,Yok,Belirsiz
+Programlanabilir Zaman Saatleri,MCB-50,MCB-50T,Dijital Zaman Saati,Var,Var,1 sn,Belirsiz,Var,Yok,Var,Yok,Var,32
+Programlanabilir Zaman Saatleri,MCB-50,MCB-50,Dijital Zaman Saati,Var,Var,1 sn,Belirsiz,Yok,Var,Var,Yok,Var,32

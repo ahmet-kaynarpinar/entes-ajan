@@ -1,0 +1,5 @@
+Kategori,Seri,Model,Tip,Düşük Akım Koruması,Aşırı Akım Koruması,.../5A (Direkt),CT-25 Dahil,230 VAC,DIN2 Ray Montaj
+Akım Koruma Röleleri,AKC,AKC-01D,"Düşük Akım Koruması (0,5-5A)",Var,Yok,Var,Yok,Var,Var
+Akım Koruma Röleleri,AKC,AKC-01A,"Aşırı Akım Koruması (0,5-5A)",Yok,Var,Var,Yok,Var,Var
+Akım Koruma Röleleri,AKC,AKC-03D,"Düşük Akım Koruması (CT-25 ile 1,5-60A)",Var,Yok,Yok,Var,Var,Var
+Akım Koruma Röleleri,AKC,AKC-03A,"Aşırı Akım Koruması (CT-25 ile 1,5-60A)",Yok,Var,Yok,Var,Var,Var

@@ -1,0 +1,9 @@
+Kategori,Seri,Model,Akım Ölçümü,Maks. Değer,Min. Değer,Sınıf 0.5,Ölçüm Aralığı (±10kA DC),2 Çıkış Kontağı,RS-485 Modbus,Pano Tipi,10-56 VDC,85-265 VAC/DC
+DC Ampermetreler,DCA-10,DCA-10,Var,Var,Var,Var,Var,Yok,Yok,Var,Yok,Var
+DC Ampermetreler,DCA-10,DCA-10C,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Var
+DC Ampermetreler,DCA-10,DCA-10S,Var,Var,Var,Var,Var,Yok,Var,Var,Yok,Var
+DC Ampermetreler,DCA-10,DCA-10CS,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Var
+DC Ampermetreler,DCA-11,DCA-11,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Yok
+DC Ampermetreler,DCA-11,DCA-11C,Var,Var,Var,Var,Var,Var,Yok,Var,Var,Yok
+DC Ampermetreler,DCA-11,DCA-11S,Var,Var,Var,Var,Var,Yok,Var,Var,Var,Yok
+DC Ampermetreler,DCA-11,DCA-11CS,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok

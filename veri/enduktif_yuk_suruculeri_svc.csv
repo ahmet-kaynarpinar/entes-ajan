@@ -1,0 +1,5 @@
+Kategori,Seri,Model,Güç (kVAr),Sürdüğü Şönt Reaktör Sayısı,Şönt Reaktör Türü,İşletme Gerilimi (V),Bağlantı Şekli,Boyutlar (mm),Ağırlık (kg),Besleme Gerilimi,Frekans,Tepki Süresi,Çalışma Sıcaklığı,Fan Soğutması
+Endüktif Yük Sürücüleri (SVC),SR,SR-05E,5,3,Monofaze (Tek Fazlı),230,Yıldız,119x121x92,"0,9",210-250 VAC (L-N),45-65 Hz,<20 ms,-10°C / +55°C,Yok
+Endüktif Yük Sürücüleri (SVC),SR,SR-10E,10,3,Monofaze (Tek Fazlı),230,Yıldız,119x121x152,"1,4",210-250 VAC (L-N),45-65 Hz,<20 ms,-10°C / +55°C,Yok
+Endüktif Yük Sürücüleri (SVC),SR,SR-20E,20,3,Monofaze (Tek Fazlı),230,Yıldız,119x162x337,"2,29",210-250 VAC (L-N),45-65 Hz,<20 ms,-10°C / +55°C,Yok
+Endüktif Yük Sürücüleri (SVC),SR,SR-30E,30,3,Monofaze (Tek Fazlı),230,Yıldız,119x167x337,"3,18",210-250 VAC (L-N),45-65 Hz,<20 ms,-10°C / +55°C,Var

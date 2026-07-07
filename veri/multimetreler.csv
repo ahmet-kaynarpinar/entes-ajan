@@ -1,0 +1,20 @@
+Kategori,Seri,Model,3~ Gerilim,3~ Akım,Cosφ,Frekans,I nötr,Demand,Maks. Değerler,Çıkış Kontağı,Aşırı/Düşük Gerilim Koruma,Faz Sırası Koruma,RS-485,X/1-X/5 Akım Trafosu,Çalışma Saati,Toplam Çalışma Saati,Montaj Tipi,Min. Değerler,Aşırı/Düşük Akım Koruma,Aşırı/Düşük Frekans Koruma,CT-25 (120A)
+Multimetreler,EMM,EMM-04,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Var,Var,Var,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Multimetreler,EMM,EMM-04S,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Yok,Var,Var,Var,Var,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Multimetreler,EMM,EMM-04C,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Var,Var,Var,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Multimetreler,EMM,EMM-04CS,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Multimetreler,EPM-04,EPM-04-96,Var,Var,Yok,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Var,Yok,Yok,Pano,Var,Yok,Yok,Var
+Multimetreler,EPM-04,EPM-04h-96,Var,Var,Yok,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Var,Var,Var,Pano,Var,Yok,Yok,Var
+Multimetreler,EPM-04,EPM-04C-96,Var,Var,Yok,Var,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Yok,Pano,Var,Var,Var,Var
+Multimetreler,EPM-04,EPM-04CS-96,Var,Var,Yok,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Pano,Var,Var,Var,Var
+Multimetreler,EPM-06,EPM-06-96,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Var,Yok,Yok,Pano,Var,Yok,Yok,Yok
+Multimetreler,EPM-06,EPM-06C-96,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Yok,Pano,Var,Var,Var,Yok
+Multimetreler,EPM-06,EPM-06CS-96,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Pano,Var,Var,Var,Yok
+Multimetreler,EVM-05,EVM-05C-96,Var,Yok,Yok,Var,Yok,Yok,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Pano,Var,Yok,Var,Yok
+Multimetreler,EPM-04,EPM-04-DIN,Var,Var,Yok,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Var,Yok,Yok,Ray,Var,Yok,Yok,Yok
+Multimetreler,EPM-04,EPM-04C-DIN,Var,Var,Yok,Var,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Yok,Ray,Var,Var,Var,Var
+Multimetreler,EPM-04,EPM-04CS-DIN,Var,Var,Yok,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Ray,Var,Var,Var,Yok
+Multimetreler,EPM-06,EPM-06-DIN,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Var,Yok,Yok,Ray,Var,Yok,Yok,Yok
+Multimetreler,EPM-06,EPM-06C-DIN,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Yok,Ray,Var,Var,Var,Var
+Multimetreler,EPM-06,EPM-06CS-DIN,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Ray,Var,Var,Var,Var
+Multimetreler,EVM-05,EVM-05C-DIN,Var,Yok,Yok,Var,Yok,Yok,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Ray,Var,Yok,Var,Yok

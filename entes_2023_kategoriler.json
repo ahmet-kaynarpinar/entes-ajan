@@ -1,0 +1,246 @@
+[
+  {
+    "kategori": "EMR Serisi Şebeke Analizörleri",
+    "aciklama": "Üç fazlı şebekede akım, gerilim, güç, enerji ve harmonik gibi elektriksel büyüklükleri ölçen gelişmiş analizörlerdir. Güç kalitesi izleme ve enerji yönetimi uygulamalarında panolarda kullanılır."
+  },
+  {
+    "kategori": "MPR-4 Serisi Şebeke Analizörleri",
+    "aciklama": "Şebeke parametrelerini yüksek doğrulukla ölçen ve haberleşme özellikleriyle uzaktan izlemeye imkân veren üst segment analizörlerdir. Endüstriyel tesislerde detaylı güç ve enerji analizinde tercih edilir."
+  },
+  {
+    "kategori": "EMK Serisi Kalite Analizörleri",
+    "aciklama": "Gerilim çökmeleri, harmonikler ve flicker gibi güç kalitesi olaylarını standartlara göre kaydeden analizörlerdir. Kritik yüklerin bulunduğu tesislerde şebeke kalitesinin denetlenmesinde kullanılır."
+  },
+  {
+    "kategori": "MPR-1 Serisi Şebeke Analizörleri",
+    "aciklama": "Temel elektriksel büyüklükleri ölçen giriş seviyesi şebeke analizörleridir. Küçük ve orta ölçekli panolarda enerji takibi için uygundur."
+  },
+  {
+    "kategori": "MPR-2 Serisi Şebeke Analizörleri",
+    "aciklama": "Ölçüm ve haberleşme yeteneği artırılmış orta segment şebeke analizörleridir. Enerji izleme sistemlerine entegre edilerek tüketim takibinde kullanılır."
+  },
+  {
+    "kategori": "MPR-3 Serisi Şebeke Analizörleri",
+    "aciklama": "Harmonik analizi ve gelişmiş ölçüm fonksiyonları sunan şebeke analizörleridir. Güç kalitesi gözetimi gereken endüstriyel panolarda yer alır."
+  },
+  {
+    "kategori": "ES Serisi Güç ve Enerji Ölçerler",
+    "aciklama": "Aktif/reaktif güç ve enerji tüketimini ölçen kompakt cihazlardır. Alt sayaç (submetering) uygulamalarıyla bölüm bazında enerji izlemede kullanılır."
+  },
+  {
+    "kategori": "ES3 Serisi Güç ve Enerji Ölçerler",
+    "aciklama": "Üç fazlı sistemlerde enerji ve güç ölçümü yapan gelişmiş ölçerlerdir. Ray montajıyla dağıtım panolarında enerji muhasebesi için tercih edilir."
+  },
+  {
+    "kategori": "EMM Serisi Multimetreler",
+    "aciklama": "Akım, gerilim, güç ve enerji gibi çok sayıda parametreyi tek ekranda gösteren dijital multimetrelerdir. Analog göstergelerin yerini alarak pano önü izlemede kullanılır."
+  },
+  {
+    "kategori": "EPM-04 EPM-06 EVM-05 Serisi Multimetreler",
+    "aciklama": "Farklı ölçü ve fonksiyonlarda üç fazlı ölçüm yapan dijital multimetre ailesidir. Pano önü elektriksel büyüklük takibi için ekonomik çözümler sunar."
+  },
+  {
+    "kategori": "EPM-4 Serisi Ampermetreler",
+    "aciklama": "Akım trafosu üzerinden AC akım ölçen dijital ampermetrelerdir. Motor ve besleme hatlarındaki akım takibinde kullanılır."
+  },
+  {
+    "kategori": "EPM-R Serisi Ampermetreler",
+    "aciklama": "Kompakt gövdeli dijital AC ampermetrelerdir. Panolarda hat akımının doğrudan izlenmesi için uygundur."
+  },
+  {
+    "kategori": "EVM Serisi Voltmetreler",
+    "aciklama": "Şebeke gerilimini ölçen ve gösteren dijital voltmetrelerdir. Faz ve hat gerilimlerinin pano önünden izlenmesinde kullanılır."
+  },
+  {
+    "kategori": "ECR Serisi Frekansmetre / Cosφmetre",
+    "aciklama": "Şebeke frekansını ve güç faktörünü (cosφ) ölçen dijital göstergelerdir. Şebeke durumunun ve reaktif yükün izlenmesinde kullanılır."
+  },
+  {
+    "kategori": "EFC Serisi Frekansmetre / Cosφmetre",
+    "aciklama": "Frekans ve güç faktörü ölçümü yapan alternatif göstergelerdir. Jeneratör ve şebeke senkronizasyonu izlemede fayda sağlar."
+  },
+  {
+    "kategori": "TA Serisi Akım Transdüserleri",
+    "aciklama": "AC akımı standart analog sinyale (örneğin 4-20 mA) dönüştüren transdüserlerdir. Akım bilgisini PLC ve SCADA sistemlerine aktarmakta kullanılır."
+  },
+  {
+    "kategori": "TV Serisi Gerilim Transdüserleri",
+    "aciklama": "Gerilimi standart analog çıkış sinyaline dönüştüren transdüserlerdir. Otomasyon sistemlerine gerilim verisi taşımak için kullanılır."
+  },
+  {
+    "kategori": "DCA Serisi Ampermetreler",
+    "aciklama": "Doğru akım (DC) devrelerindeki akımı ölçen dijital ampermetrelerdir. DC güç sistemleri ve akü panolarında akım izlemede kullanılır."
+  },
+  {
+    "kategori": "DC Şöntler",
+    "aciklama": "DC akımı gerilime çeviren, ölçüm cihazlarıyla birlikte kullanılan hassas dirençlerdir. Yüksek DC akımların ampermetreyle ölçülmesini sağlar."
+  },
+  {
+    "kategori": "DCV Serisi Voltmetreler",
+    "aciklama": "Doğru akım gerilimini ölçen dijital voltmetrelerdir. Akü, doğrultucu ve DC besleme sistemlerinde gerilim takibinde kullanılır."
+  },
+  {
+    "kategori": "ELR & CBCT Serisi Toprak Kaçak Akım Röleleri",
+    "aciklama": "Toroidal akım trafosuyla toprak kaçak akımını algılayan koruma röleleridir. İnsan güvenliği ve yangın riskine karşı devreyi ayırmakta kullanılır."
+  },
+  {
+    "kategori": "MKC - MKS Serisi Motor (Faz) Koruma Röleleri",
+    "aciklama": "Faz kesilmesi, faz sırası ve asimetri gibi arızalara karşı motoru koruyan rölelerdir. Üç fazlı motorlarda sargı hasarını önlemek için kullanılır."
+  },
+  {
+    "kategori": "FR-02 / PT-01 Faz Sırası Rölesi / Termistör Rölesi",
+    "aciklama": "Faz sırası ve faz varlığını denetleyen ile motor sıcaklığını PTC termistörle izleyen koruma röleleridir. Yanlış dönüş yönü ve aşırı ısınmaya karşı koruma sağlar."
+  },
+  {
+    "kategori": "GKRC / DGRC / MCC Serisi Gerilim Koruma Röleleri",
+    "aciklama": "Aşırı ve düşük gerilim gibi anormal gerilim koşullarında yükü devreden çıkaran rölelerdir. Cihazların gerilim dalgalanmalarından zarar görmesini önler."
+  },
+  {
+    "kategori": "AKC Serisi Akım Koruma Röleleri",
+    "aciklama": "Aşırı veya düşük akım durumlarını izleyerek koruma sağlayan rölelerdir. Yük akımının belirlenen sınırlar dışına çıkmasında devreyi ayırır."
+  },
+  {
+    "kategori": "CKR Serisi Aşırı Akım Sekonder Koruma Röleleri",
+    "aciklama": "Akım trafosu sekonderinden beslenen aşırı akım koruma röleleridir. Orta gerilim fiderlerinde aşırı akım ve kısa devre korumasında kullanılır."
+  },
+  {
+    "kategori": "MCB / SER / ERTC / SSR / DG Serileri Zaman Röleleri",
+    "aciklama": "Farklı zamanlama fonksiyonlarına (çekmede/bırakmada gecikme vb.) sahip zaman röleleri ailesidir. Otomasyon devrelerinde sıralı ve gecikmeli kumanda için kullanılır."
+  },
+  {
+    "kategori": "MCB-100/200 ERTC-100 Serileri Zaman Röleleri",
+    "aciklama": "Çok fonksiyonlu ve ayarlanabilir zamanlama sunan zaman röleleridir. Kumanda panolarında zaman esaslı anahtarlama işlemlerinde kullanılır."
+  },
+  {
+    "kategori": "DTR Serisi Astronomik Zaman Röleleri",
+    "aciklama": "Konuma göre gün doğumu ve batımını hesaplayarak anahtarlama yapan zaman röleleridir. Sokak ve dış mekân aydınlatmasının otomatik kontrolünde kullanılır."
+  },
+  {
+    "kategori": "MCB-50/50T Serisi Programlanabilir Zaman Saatleri",
+    "aciklama": "Haftalık/günlük programlanabilen dijital zaman saatleridir. Aydınlatma ve yük gruplarının belirli saatlerde otomatik kumandasında kullanılır."
+  },
+  {
+    "kategori": "MCB-A Serisi Programlanabilir Zaman Saatleri",
+    "aciklama": "Programlanabilir anahtarlama fonksiyonları sunan zaman saatleridir. Zaman planına göre yüklerin devreye alınıp çıkarılmasında kullanılır."
+  },
+  {
+    "kategori": "SSRC Serisi Sıvı Seviye Kontrol Röleleri",
+    "aciklama": "Elektrot problarıyla sıvı seviyesini algılayıp pompa/vana kumanda eden rölelerdir. Depo doldurma-boşaltma ve taşma korumasında kullanılır."
+  },
+  {
+    "kategori": "FG Serisi Fotosel Röleleri",
+    "aciklama": "Ortam ışık seviyesine göre çıkış veren ışığa duyarlı rölelerdir. Aydınlatmanın karanlıkta otomatik açılıp gündüz kapanmasında kullanılır."
+  },
+  {
+    "kategori": "PS Serisi Güç Kaynakları",
+    "aciklama": "AC gerilimi regüle edilmiş DC gerilime çeviren anahtarlamalı güç kaynaklarıdır. Panolardaki kontrol cihazlarını ve sensörleri beslemede kullanılır."
+  },
+  {
+    "kategori": "ENT.PST Serisi Kumanda Trafoları",
+    "aciklama": "Kumanda devreleri için gerilim seviyesini düşüren güç trafolarıdır. Kontaktör bobinleri ve kumanda elemanlarının beslenmesinde kullanılır."
+  },
+  {
+    "kategori": "ENT.IST Serisi İzolasyon Trafoları",
+    "aciklama": "Giriş ve çıkış devrelerini galvanik olarak ayıran izolasyon trafolarıdır. Gürültü bastırma ve güvenli ayrılmış besleme gereken uygulamalarda kullanılır."
+  },
+  {
+    "kategori": "ENTES Enerji Yönetimi Çözümleri",
+    "aciklama": "Sahadaki ölçüm cihazlarından toplanan verinin merkezi izlenip raporlandığı yazılım ve donanım çözümleridir. Tesis genelinde enerji verimliliği takibinde kullanılır."
+  },
+  {
+    "kategori": "Enerji Doktoru ve Enerthings",
+    "aciklama": "Enerji verilerini bulut üzerinden izlemeye ve analiz etmeye yarayan platform çözümleridir. Uzaktan enerji takibi ve raporlama için kullanılır."
+  },
+  {
+    "kategori": "ETMO Ethernet Gateway (Ağ Geçitleri)",
+    "aciklama": "Seri (Modbus RTU) cihazları Ethernet/TCP ağına bağlayan ağ geçitleridir. Ölçüm cihazlarının yerel ağ üzerinden izlenmesini sağlar."
+  },
+  {
+    "kategori": "GEMO GSM/GPRS Gateway (Ağ Geçitleri)",
+    "aciklama": "Cihaz verisini GSM/GPRS mobil şebeke üzerinden aktaran ağ geçitleridir. Kablolu altyapı bulunmayan uzak sahalarda uzaktan izlemede kullanılır."
+  },
+  {
+    "kategori": "EPC-12 Veri Toplayıcı",
+    "aciklama": "Birden çok ölçüm cihazından veri toplayıp merkezî sisteme ileten veri toplayıcıdır. Dağıtık ölçüm noktalarının tek noktada birleştirilmesinde kullanılır."
+  },
+  {
+    "kategori": "RGP Serisi Reaktif Güç Kontrol Rölesi",
+    "aciklama": "Kondansatör gruplarını devreye alıp çıkararak güç faktörünü düzelten reaktif güç rölesidir. Kompanzasyon panolarında ceza tüketimini azaltmak için kullanılır."
+  },
+  {
+    "kategori": "RGA Serisi Reaktif Güç Kontrol Rölesi",
+    "aciklama": "Gelişmiş ölçüm ve kademe kontrolü sunan reaktif güç kontrol rölesidir. Otomatik kompanzasyon sistemlerinde cosφ değerini hedef seviyede tutar."
+  },
+  {
+    "kategori": "RGSR Serisi Reaktif Güç Kontrol Rölesi",
+    "aciklama": "Statik (tristörlü) anahtarlamayla hızlı reaktif güç kontrolü yapan rölelerdir. Hızlı değişen yüklerde dinamik kompanzasyon için kullanılır."
+  },
+  {
+    "kategori": "RGA / RGSR OG Serisi Reaktif Güç Kontrol Rölesi",
+    "aciklama": "Orta gerilim kompanzasyon sistemleri için tasarlanmış reaktif güç kontrol röleleridir. OG seviyesinde güç faktörü düzeltmesinde kullanılır."
+  },
+  {
+    "kategori": "SR Serisi Endüktif Yük Sürücüleri",
+    "aciklama": "Kompanzasyonda endüktif (reaktör) kademelerinin anahtarlanmasını yöneten sürücülerdir. Kapasitif yük fazlası durumunda şebeke dengelemesinde kullanılır."
+  },
+  {
+    "kategori": "O.G. Uyumlu Akım Trafoları",
+    "aciklama": "Orta gerilim uygulamaları için tasarlanmış ölçü akım trafolarıdır. OG hatlarında akımın ölçüm ve koruma amacıyla düşürülmesinde kullanılır."
+  },
+  {
+    "kategori": "Alçak Gerilim Güç Kondansatörleri",
+    "aciklama": "Reaktif güç sağlayarak güç faktörünü düzelten alçak gerilim kondansatörleridir. Kompanzasyon panolarında kapasitif enerji kaynağı olarak kullanılır."
+  },
+  {
+    "kategori": "DU-3 Deşarj Ünitesi",
+    "aciklama": "Kondansatörlerin devre dışı kaldığında üzerindeki yükü boşaltan deşarj ünitesidir. Yeniden devreye alma güvenliği ve kondansatör ömrü için kullanılır."
+  },
+  {
+    "kategori": "ENT.SRS Serisi Şönt Reaktörleri",
+    "aciklama": "Şebekedeki kapasitif reaktif gücü dengeleyen şönt reaktörlerdir. Aşırı gerilim ve kapasitif yük fazlasının bastırılmasında kullanılır."
+  },
+  {
+    "kategori": "ENT.ERH Serisi Harmonik Filtre Reaktörleri",
+    "aciklama": "Kondansatörle seri bağlanarak rezonansı önleyen ve harmonikleri sınırlayan filtre reaktörleridir. Harmonik yükün yoğun olduğu kompanzasyon sistemlerinde kullanılır."
+  },
+  {
+    "kategori": "ENT-KT Serisi Kompanzasyon Kontaktörleri",
+    "aciklama": "Kondansatör kademelerini ön direnç yardımıyla darbe akımını sınırlayarak anahtarlayan özel kontaktörlerdir. Kompanzasyon panolarında kondansatör ömrünü uzatmak için kullanılır."
+  },
+  {
+    "kategori": "Yük Ayırıcılar",
+    "aciklama": "Devreyi yük altında güvenli biçimde açıp kapayan mekanik ayırma elemanlarıdır. Pano ve dağıtım hatlarında bakım ve manevra amacıyla kullanılır."
+  },
+  {
+    "kategori": "NH Bıçaklı Sigortalar",
+    "aciklama": "Yüksek kesme kapasiteli bıçak kontaklı NH tipi sigortalardır. Dağıtım panolarında aşırı akım ve kısa devre korumasında kullanılır."
+  },
+  {
+    "kategori": "SC Serisi Statik Kontaktörler",
+    "aciklama": "Tristör esaslı, kontaksız (statik) anahtarlama yapan kontaktörlerdir. Kondansatörlerin hızlı ve kıvılcımsız devreye alınmasında kullanılır."
+  },
+  {
+    "kategori": "SPD Serisi Darbe Gerilimi Koruma Cihazı",
+    "aciklama": "Yıldırım ve anahtarlama kaynaklı geçici aşırı gerilimlere karşı koruma sağlayan parafudrlardır. Hassas cihazları darbe gerilimlerinden korumak için kullanılır."
+  },
+  {
+    "kategori": "ENT.A Serisi A.G Akım Trafoları",
+    "aciklama": "Alçak gerilim uygulamaları için tasarlanmış ölçü akım trafolarıdır. Yüksek hat akımını ölçü cihazları için standart sekonder akıma düşürür."
+  },
+  {
+    "kategori": "ENS Serisi A.G Akım Trafoları",
+    "aciklama": "Alçak gerilim panolarında kullanılan ölçü akım trafolarıdır. Ölçüm ve koruma cihazlarına orantılı akım sinyali sağlar."
+  },
+  {
+    "kategori": "ENS.3PM Serisi A.G Akım Trafoları",
+    "aciklama": "Üç fazı tek gövdede birleştiren kompakt alçak gerilim akım trafolarıdır. Yer tasarrufu gereken panolarda üç faz akım ölçümünde kullanılır."
+  },
+  {
+    "kategori": "ENS.CCT Serisi A.G Clamp Tipi Akım Trafoları",
+    "aciklama": "Kablonun kesilmesine gerek kalmadan geçirilerek montajlanan clamp (kelepçe) tipi akım trafolarıdır. Mevcut tesislerde kolay akım ölçümü için kullanılır."
+  },
+  {
+    "kategori": "CT Serisi Akım Trafoları",
+    "aciklama": "Genel amaçlı ölçü akım trafolarıdır. Şebeke akımını ampermetre, analizör ve koruma cihazları için düşürerek ölçüm ve izlemeyi mümkün kılar."
+  }
+]

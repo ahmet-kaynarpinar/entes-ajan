@@ -1,0 +1,183 @@
+[
+  {
+    "girdi": "Akım Koruma Röleleri kategorisinde Düşük Akım Koruması özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "AKC-01D",
+      "AKC-03D"
+    ]
+  },
+  {
+    "girdi": "Ampermetreler kategorisinde 3~ Akım özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "EPM-34-96"
+    ]
+  },
+  {
+    "girdi": "Aşırı Akım Sekonder Koruma Röleleri kategorisinde Normal/Very/Extreme Inverse özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "CKR-93T",
+      "CKR-92T"
+    ]
+  },
+  {
+    "girdi": "Astronomik Zaman Röleleri kategorisinde Data Aktarımı (RS-485) özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "DTR-20S",
+      "DTR-20TS"
+    ]
+  },
+  {
+    "girdi": "Cosφmetre / Frekansmetre kategorisinde Çift İzolasyon özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "ECR-3-48",
+      "ECR-3-72",
+      "ECR-3-96",
+      "EFC-3-48",
+      "EFC-3-72",
+      "EFC-3-96"
+    ]
+  },
+  {
+    "girdi": "DC Ampermetreler kategorisinde Akım Ölçümü özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "DCA-10",
+      "DCA-10C",
+      "DCA-10S",
+      "DCA-10CS",
+      "DCA-11",
+      "DCA-11C",
+      "DCA-11S",
+      "DCA-11CS"
+    ]
+  },
+  {
+    "girdi": "DC Voltmetreler kategorisinde 1~ Gerilim özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "DCV-10",
+      "DCV-10C",
+      "DCV-10S",
+      "DCV-10CS",
+      "DCV-11",
+      "DCV-11C",
+      "DCV-11S",
+      "DCV-11CS"
+    ]
+  },
+  {
+    "girdi": "Endüktif Yük Sürücüleri (SVC) kategorisinde Fan Soğutması özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "SR-30E"
+    ]
+  },
+  {
+    "girdi": "Enerji Yönetimi Yazılımları kategorisinde Anlık İzleme özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "Enerji Doktoru",
+      "Enerthings",
+      "ENTES.NET"
+    ]
+  },
+  {
+    "girdi": "Faz Sırası Koruma Röleleri kategorisinde Nötr Algılama Hatası özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "FR-02"
+    ]
+  },
+  {
+    "girdi": "Fotosel Röleleri kategorisinde 1-3 Lux Ayarlı özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "FG-4"
+    ]
+  },
+  {
+    "girdi": "Gerilim Koruma Röleleri kategorisinde LCD Ekran özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "GKRC-31E LCD",
+      "GKRC-21E LCD",
+      "GKRC-32E LCD",
+      "GKRC-22E LCD"
+    ]
+  },
+  {
+    "girdi": "Güç ve Enerji Ölçerler kategorisinde CT-80D Trafo özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "ES-80L",
+      "ES-80LS"
+    ]
+  },
+  {
+    "girdi": "Kalite Analizörleri kategorisinde Grafik LCD özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "EMK-01",
+      "EMK-10P"
+    ]
+  },
+  {
+    "girdi": "Programlanabilir Zaman Saatleri kategorisinde Günlük Programlama özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "MCB-A",
+      "MCB-50T",
+      "MCB-50"
+    ]
+  },
+  {
+    "girdi": "Sıvı Seviye Kontrol Röleleri kategorisinde 5-50 kΩ Ayarlanabilir özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "SSRC-04"
+    ]
+  },
+  {
+    "girdi": "Şönt Reaktörler kategorisinde SVC Özel özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "ENT.SRS1.230/1,66",
+      "ENT.SRS1.230/3,33",
+      "ENT.SRS1.230/6,67",
+      "ENT.SRS1.230/10"
+    ]
+  },
+  {
+    "girdi": "Statik Kontaktörler kategorisinde Reaktör Termik Girişi özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "SC-225",
+      "SC-250",
+      "SC-225S",
+      "SC-250S",
+      "SC-325S",
+      "SC-350S"
+    ]
+  },
+  {
+    "girdi": "Toprak Kaçak Akım Röleleri kategorisinde Manuel Reset özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "ELR-30-M"
+    ]
+  },
+  {
+    "girdi": "Voltmetreler kategorisinde Seçilebilir 3-Faz özelliği olan model istiyorum",
+    "beklenen_tip": "model_oner",
+    "beklenen_modeller": [
+      "EVM-3S-48",
+      "EVM-3S-72",
+      "EVM-3S-96"
+    ]
+  }
+]

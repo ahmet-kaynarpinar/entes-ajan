@@ -1,0 +1,30 @@
+Kategori,Seri,Model,Faz,kVAr,L (mH),Irms (A),İşletme Gerilimi,SVC Özel,Boyut No,Çizim No,A (mm),B (mm),C (mm),D (mm),E (mm),Ağırlık (kg),F1 (mm),F2 (mm),G (mm),H (mm)
+Şönt Reaktörler,ENT.SRS1,"ENT.SRS1 230/0,1",Tek Fazlı,"0,1",1684,"0,436",230V 50Hz,Yok,1,1,84,74,87,70,57,"1,4",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,"ENT.SRS1 230/0,25",Tek Fazlı,"0,25",674,"1,09",230V 50Hz,Yok,2,1,96,185,98,80,66,"2,4",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,"ENT.SRS1 230/0,5",Tek Fazlı,"0,5",338,"2,17",230V 50Hz,Yok,3,1,120,107,115,100,88,"3,1",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,"ENT.SRS1 230/0,3-0,4-0,5",Tek Fazlı,"0,3-0,4-0,5",338-421-560,"1,30-1,74-2,17",230V 50Hz,Yok,7,1,120,107,115,100,88,"3,7",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,ENT.SRS1 230/1,Tek Fazlı,1,168,"4,34",230V 50Hz,Yok,4,1,150,122,145,125,98,"6,8",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,"ENT.SRS1 230/1,5",Tek Fazlı,"1,5",112,"6,53",230V 50Hz,Yok,5,1,150,122,145,125,98,"9,2",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,"ENT.SRS1.230/1,66",Tek Fazlı,"1,66",101,"7,22",230V 50Hz,Var,8,1,150,123,145,125,100,"9,2",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,ENT.SRS1 230/2,Tek Fazlı,2,84,"8,7",230V 50Hz,Yok,9,1,192,163,187,140,133,"12,5",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,"ENT.SRS1 230/2,5",Tek Fazlı,"2,5",67,"10,9",230V 50Hz,Yok,6,1,192,125,185,160,95,"15,8",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,ENT.SRS1 230/3,Tek Fazlı,3,57,"12,83",230V 50Hz,Yok,9,1,192,163,187,140,133,"15,95",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,"ENT.SRS1.230/3,33",Tek Fazlı,"3,33",51,"14,48",230V 50Hz,Var,9,1,192,163,187,140,133,"19,2",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,ENT.SRS1 230/5,Tek Fazlı,5,"33,7","21,74",230V 50Hz,Yok,10,2,240,125,305,120,105,"20,2",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,"ENT.SRS1.230/6,67",Tek Fazlı,"6,67","25,3",29,230V 50Hz,Var,10,2,240,125,305,120,105,"22,5",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,"ENT.SRS1 230/7,5",Tek Fazlı,"7,5","22,4","32,6",230V 50Hz,Yok,11,2,240,145,305,120,125,"25,6",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS1,ENT.SRS1.230/10,Tek Fazlı,10,"16,8","43,48",230V 50Hz,Var,11,2,240,145,305,120,125,"28,5",Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Şönt Reaktörler,ENT.SRS3,"ENT.SRS3 400/0,25",Üç Fazlı,"0,25",2040,"0,36",400V 50Hz,Yok,1,Belirsiz,120,68,102,100,53,"2,3",12,7,125,75
+Şönt Reaktörler,ENT.SRS3,"ENT.SRS3 400/0,5",Üç Fazlı,"0,5",1020,"0,72",400V 50Hz,Yok,2,Belirsiz,150,63,127,125,48,3,12,7,150,70
+Şönt Reaktörler,ENT.SRS3,ENT.SRS3 400/1,Üç Fazlı,1,505,"1,44",400V 50Hz,Yok,3,Belirsiz,180,93,152,150,77,"7,8",12,7,175,100
+Şönt Reaktörler,ENT.SRS3,"ENT.SRS3 400/1,5",Üç Fazlı,"1,5",336,"2,17",400V 50Hz,Yok,4,Belirsiz,180,103,152,150,87,"9,5",12,7,175,110
+Şönt Reaktörler,ENT.SRS3,ENT.SRS3 400/2,Üç Fazlı,2,255,"2,89",400V 50Hz,Yok,5,Belirsiz,240,93,203,200,87,"11,6",12,7,225,210
+Şönt Reaktörler,ENT.SRS3,"ENT.SRS3 400/2,5",Üç Fazlı,"2,5",203,"3,61",400V 50Hz,Yok,6,Belirsiz,240,103,203,200,87,"11,9",12,7,225,220
+Şönt Reaktörler,ENT.SRS3,ENT.SRS3 400/3,Üç Fazlı,3,170,"4,33",400V 50Hz,Yok,7,Belirsiz,240,103,203,200,87,"16,7",12,7,225,220
+Şönt Reaktörler,ENT.SRS3,ENT.SRS3 400/5,Üç Fazlı,5,102,"7,22",400V 50Hz,Yok,8,Belirsiz,300,125,253,250,105,"22,5",17,9,275,145
+Şönt Reaktörler,ENT.SRS3,"ENT.SRS3 400/7,5",Üç Fazlı,"7,5",68,"10,83",400V 50Hz,Yok,9,Belirsiz,300,135,255,250,115,32,17,9,275,155
+Şönt Reaktörler,ENT.SRS3,ENT.SRS3 400/10,Üç Fazlı,10,51,"14,43",400V 50Hz,Yok,10,Belirsiz,360,136,305,300,112,44,17,9,305,200
+Şönt Reaktörler,ENT.SRS3,ENT.SRS3 400/15,Üç Fazlı,15,34,"21,65",400V 50Hz,Yok,11,Belirsiz,420,146,355,350,122,53,20,13,355,260
+Şönt Reaktörler,ENT.SRS3,ENT.SRS3 400/20,Üç Fazlı,20,"25,5","28,87",400V 50Hz,Yok,12,Belirsiz,420,166,355,350,142,"70,5",20,13,355,260
+Şönt Reaktörler,ENT.SRS3,ENT.SRS3 400/25,Üç Fazlı,25,"20,4","36,09",400V 50Hz,Yok,13,Belirsiz,480,166,405,400,136,94,20,13,405,260
+Şönt Reaktörler,ENT.SRS3,ENT.SRS3 400/40,Üç Fazlı,40,"12,75","57,74",400V 50Hz,Yok,14,Belirsiz,480,206,405,400,176,127,20,13,405,300

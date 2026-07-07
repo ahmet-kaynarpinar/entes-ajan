@@ -1,0 +1,15 @@
+Kategori,Seri,Model,Ölçüm Akımı,CT-80D Trafo,kWh Aktif Enerji,Enerji Pals Çıkışı,MID Uyumluluğu,RS-485,Boyut,LCD 7+1 Segment,8 Tarife,Çift Yönlü Ölçüm,Pals Sayacı,Log Kaydı,MID Sertifikası,Ethernet
+Güç ve Enerji Ölçerler,ES,ES-32L,32A,Yok,Var,Var,Opsiyonel,Yok,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Güç ve Enerji Ölçerler,ES,ES-32LS,32A,Yok,Var,Yok,Opsiyonel,Var,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Güç ve Enerji Ölçerler,ES,ES-45L,45A,Yok,Var,Var,Opsiyonel,Yok,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Güç ve Enerji Ölçerler,ES,ES-45LS,45A,Yok,Var,Yok,Opsiyonel,Var,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Güç ve Enerji Ölçerler,ES,ES-80L,80A,Var,Var,Var,Opsiyonel,Yok,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Güç ve Enerji Ölçerler,ES,ES-80LS,80A,Var,Var,Yok,Opsiyonel,Var,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Güç ve Enerji Ölçerler,ES3,ES3-63LS,63A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Var,DIN4,Var,Var,Var,Var,Var,Yok,Yok
+Güç ve Enerji Ölçerler,ES3,ES3-80LS,80A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Var,DIN4,Var,Var,Var,Var,Var,Yok,Yok
+Güç ve Enerji Ölçerler,ES3,ES3-63LSE,63A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Yok,DIN4,Var,Var,Var,Var,Var,Yok,Var
+Güç ve Enerji Ölçerler,ES3,ES3-80LSE,80A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Yok,DIN4,Var,Var,Var,Var,Var,Yok,Var
+Güç ve Enerji Ölçerler,ES3,ES3-63LS-MID,63A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Var,DIN4,Var,Var,Var,Var,Var,Var,Yok
+Güç ve Enerji Ölçerler,ES3,ES3-80LS-MID,80A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Var,DIN4,Var,Var,Var,Var,Var,Var,Yok
+Güç ve Enerji Ölçerler,ES3,ES3-63LSE-MID,63A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Yok,DIN4,Var,Var,Var,Var,Var,Var,Var
+Güç ve Enerji Ölçerler,ES3,ES3-80LSE-MID,80A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Yok,DIN4,Var,Var,Var,Var,Var,Var,Var

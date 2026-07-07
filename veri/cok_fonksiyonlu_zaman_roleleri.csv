@@ -1,0 +1,12 @@
+Kategori,Seri,Model,Açıklama,Zaman Aralığı,Tetikleme Girişi,Çekmede Gecikme,Bırakmada Gecikme,Pals,Asimetrik Flaşör,Simetrik Flaşör,Start/Stop,Sayıcı,Sağ-Sol,Yıldız/Üçgen,2 Kademe Çekmede Gecikme,2 Kademe Bırakmada Gecikme,Hafıza,12-30 VAC/DC,85-315 VAC/DC,Dahili Batarya,DIN2 Ray Montaj
+Çok Fonksiyonlu Zaman Röleleri,MCB,MCB-100,7 Fonksiyonlu Zaman Rölesi,"0,1sn-9999dk",Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Var,Opsiyonel,Var,Var (*),Yok,Var,Yok,Var
+Çok Fonksiyonlu Zaman Röleleri,MCB,MCB-101,7 Fonksiyonlu Zaman Rölesi,"0,1sn-9999dk",Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Var,Var,Var,Var (*),Var,Yok,Yok,Var
+Çok Fonksiyonlu Zaman Röleleri,MCB,MCB-120,17 Fonksiyonlu Zaman Rölesi,"0,1sn-9999dk",Var,Var,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Yok,Yok,Var (*),Yok,Var,Yok,Var
+Çok Fonksiyonlu Zaman Röleleri,MCB,MCB-121,17 Fonksiyonlu Zaman Rölesi,"0,1sn-9999dk",Var,Var,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Yok,Yok,Var (*),Var,Yok,Yok,Var
+Çok Fonksiyonlu Zaman Röleleri,MCB,MCB-125,21 Fonksiyonlu Zaman Rölesi,"0,1sn-9999dk",Var,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Var (*),Yok,Var,Yok,Var
+Çok Fonksiyonlu Zaman Röleleri,MCB,MCB-126,21 Fonksiyonlu Zaman Rölesi,"0,1sn-9999dk",Var,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Var (*),Var,Yok,Yok,Var
+Çok Fonksiyonlu Zaman Röleleri,MCB,MCB-130,28 Fonksiyonlu Zaman Rölesi,"0,1sn-9999dk",Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var (*),Yok,Var,Yok,Var
+Çok Fonksiyonlu Zaman Röleleri,MCB,MCB-131,28 Fonksiyonlu Zaman Rölesi,"0,1sn-9999dk",Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var,Var (*),Var,Yok,Yok,Var
+Çok Fonksiyonlu Zaman Röleleri,MCB,MCB-200,Beslemesiz Çok Fonksiyonlu Zaman Rölesi,"0,2sn-9999sn / 0,1dk-9999dk",Var,Opsiyonel,Opsiyonel,Opsiyonel,Opsiyonel,Opsiyonel,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Var
+Çok Fonksiyonlu Zaman Röleleri,ERTC,ERTC-100,Sayıcı / Impulse Zaman Rölesi,"0,1sn-9999dk",Var,Yok,Yok,Var,Yok,Yok,Yok,Var,Yok,Yok,Yok,Yok,Var (*),Yok,Var,Yok,Var
+Çok Fonksiyonlu Zaman Röleleri,ERTC,ERTC-101,Sayıcı / Impulse Zaman Rölesi,"0,1sn-9999dk",Var,Yok,Yok,Var,Yok,Yok,Yok,Var,Yok,Yok,Yok,Yok,Var (*),Var,Yok,Yok,Var

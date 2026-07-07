@@ -1,0 +1,14 @@
+Kategori,Seri,Model,Nötr Kopması Algılama,Faz Yokluğu,Faz Sırası Hatası,PTC Koruması,Sabit Asimetri,Ayarlanabilir Asimetri,Nötrsüz,Çekme Gecikmesi (Ayarlanabilir),Açma Gecikmesi (Ayarlanabilir),1 C/O Kontak,1 N/O Kontak,220-230 VAC,380-400 VAC,160-690 VAC,DIN1 Ray Montaj,DIN2 Ray Montaj
+Motor (Faz) Koruma Röleleri,MK,MK-01,Var,Var,Yok,Yok,%20,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Yok,Yok
+Motor (Faz) Koruma Röleleri,MKC,MKC-01,Var,Var,Yok,Yok,%20,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Yok,Var
+Motor (Faz) Koruma Röleleri,MKS,MKS-01,Var,Var,Yok,Yok,%20,Yok,Yok,Yok,Yok,Yok,Var,Var,Yok,Yok,Var,Yok
+Motor (Faz) Koruma Röleleri,MKC,MKC-03,Var,Var,Var,Yok,%40,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Yok,Var
+Motor (Faz) Koruma Röleleri,MKC,MKC-03P,Var,Var,Var,Var,%40,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Yok,Var
+Motor (Faz) Koruma Röleleri,MKS,MKS-03,Var,Var,Var,Yok,%40,Yok,Yok,Yok,Yok,Yok,Var,Var,Yok,Yok,Var,Yok
+Motor (Faz) Koruma Röleleri,MKC,MKC-04,Yok,Var,Var,Yok,%40,Yok,Var,Yok,Yok,Var,Yok,Opsiyonel,Var,Yok,Yok,Var
+Motor (Faz) Koruma Röleleri,MKC,MKC-04-U69,Yok,Var,Var,Yok,%10,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Var,Yok,Var
+Motor (Faz) Koruma Röleleri,MKC,MKC-05,Var,Var,Var,Yok,Yok,Opsiyonel,Yok,Var,Var,Var,Yok,Var,Yok,Yok,Yok,Var
+Motor (Faz) Koruma Röleleri,MKC,MKC-05P,Var,Var,Var,Var,Yok,Opsiyonel,Yok,Var,Var,Var,Yok,Var,Yok,Yok,Yok,Var
+Motor (Faz) Koruma Röleleri,MKC,MKC-06,Yok,Var,Var,Yok,Yok,Opsiyonel,Var,Var,Var,Var,Yok,Yok,Var,Yok,Yok,Var
+Motor (Faz) Koruma Röleleri,MKC,MKC-06P,Yok,Var,Var,Var,Yok,Opsiyonel,Var,Var,Var,Var,Yok,Yok,Var,Yok,Yok,Var
+Motor (Faz) Koruma Röleleri,MKC,MKC-30,Var,Var,Var,Yok,Yok,Opsiyonel,Yok,Yok,Var,Var,Yok,Var,Yok,Yok,Var,Yok

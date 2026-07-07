@@ -1,0 +1,13 @@
+Kategori,Seri,Model,Çalışma Gücü 240V 50Hz (kVAr),Çalışma Gücü 400-440V 50Hz (kVAr),Ani Yardımcı Kontak NO,Ani Yardımcı Kontak NC,Saatlik Maks. Operasyon Sayısı,Uygulama Sayısı (Anahtarlama Ömrü)
+Kompanzasyon Kontaktörleri,ENT-KT,"ENT-KT-2,5-C10","1,4","2,5",1,0,240,150.000
+Kompanzasyon Kontaktörleri,ENT-KT,ENT-KT-5-C10,"2,8",5,1,0,240,150.000
+Kompanzasyon Kontaktörleri,ENT-KT,"ENT-KT-7,5-C11","4,0","7,5",1,1,240,200.000
+Kompanzasyon Kontaktörleri,ENT-KT,ENT-KT-12-C11,"6,7","12,5",1,1,240,200.000
+Kompanzasyon Kontaktörleri,ENT-KT,ENT-KT-16-C11,"8,5","16,7",1,1,240,200.000
+Kompanzasyon Kontaktörleri,ENT-KT,ENT-KT-20-C11,"10,0","20,0",1,1,240,100.000
+Kompanzasyon Kontaktörleri,ENT-KT,ENT-KT-25-C11,"15,0","25,0",1,1,240,100.000
+Kompanzasyon Kontaktörleri,ENT-KT,ENT-KT-33-C12,"20,0","33,3",1,2,240,100.000
+Kompanzasyon Kontaktörleri,ENT-KT,ENT-KT-40-C12,"25,0","40,0",1,2,240,100.000
+Kompanzasyon Kontaktörleri,ENT-KT,ENT-KT-50-C12,"30,0","50,0",1,2,240,100.000
+Kompanzasyon Kontaktörleri,ENT-KT,ENT-KT-60-C12,"40,0","60,0",1,2,240,100.000
+Kompanzasyon Kontaktörleri,ENT-KT,ENT-KT-75-C12,"45,0","75,0",1,2,240,100.000

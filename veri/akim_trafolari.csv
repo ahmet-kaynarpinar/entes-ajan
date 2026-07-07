@@ -1,0 +1,198 @@
+Kategori,Seri,Model,Tip,Primer Akım (A),Sekonder,Nominal Güç (VA),"Sınıf 0,5","Sınıf 0,5S",Bara/İç Ölçü (mm),Adet/Koli,Sınıf 3,Sınıf 1,"Sınıf 0,2","Sınıf 0,2S",Not
+Akım Trafoları,ENT.A-OG (O.G. Uyumlu),ENT.A65-OG 30/1,ENT.A65-OG,30,1A,1,Var,Yok,Bara 65,3,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A-OG (O.G. Uyumlu),ENT.A65-OG 40/1,ENT.A65-OG,40,1A,"1,5",Var,Yok,Bara 65,3,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A-OG (O.G. Uyumlu),ENT.A65-OG 50/1,ENT.A65-OG,50,1A,"2,5",Var,Yok,Bara 65,3,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A-OG (O.G. Uyumlu),ENT.A65-OG 100/5,ENT.A65-OG,100,5A,5,Yok,Var,Bara 65,3,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A20 MN 40/5A,ENT.A20 MN,40,5A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Var,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A20 MN 50/5A,ENT.A20 MN,50,5A,"1,25",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A20 MN 60/5A,ENT.A20 MN,60,5A,"1,25",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A20 MN 75/5A,ENT.A20 MN,75,5A,"1,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A20 MN 100/5A,ENT.A20 MN,100,5A,"1,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A20 MN 125/5A,ENT.A20 MN,125,5A,2,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A20 MN 150/5A,ENT.A20 MN,150,5A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A20 MN 200/5A,ENT.A20 MN,200,5A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A20 MN 250/5A,ENT.A20 MN,250,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 40/5A,ENT.A30 MN,40,5A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Var,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 50/5A,ENT.A30 MN,50,5A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 60/1A,ENT.A30 MN,60,1A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 75/1A,ENT.A30 MN,75,1A,"1,25",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 80/1A,ENT.A30 MN,80,1A,"1,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 100/5A,ENT.A30 MN,100,5A,"1,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 125/5A,ENT.A30 MN,125,5A,"1,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 150/5A,ENT.A30 MN,150,5A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 150/1A,ENT.A30 MN,150,1A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 200/5A,ENT.A30 MN,200,5A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 200/1A,ENT.A30 MN,200,1A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 250/5A,ENT.A30 MN,250,5A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 300/5A,ENT.A30 MN,300,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 300/1A,ENT.A30 MN,300,1A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 400/5A,ENT.A30 MN,400,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 500/5A,ENT.A30 MN,500,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 600/5A,ENT.A30 MN,600,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 MN 600/1A,ENT.A30 MN,600,1A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 100/1A,ENT.A40 MN,100,1A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 125/5A,ENT.A40 MN,125,5A,"1,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 125/1A,ENT.A40 MN,125,1A,"1,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 150/5A,ENT.A40 MN,150,5A,"1,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 150/1A,ENT.A40 MN,150,1A,"1,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 200/5A,ENT.A40 MN,200,5A,"1,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 200/1A,ENT.A40 MN,200,1A,"1,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 250/5A,ENT.A40 MN,250,5A,"1,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 300/1A,ENT.A40 MN,300,1A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 400/5A,ENT.A40 MN,400,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 400/1A,ENT.A40 MN,400,1A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 500/5A,ENT.A40 MN,500,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 500/1A,ENT.A40 MN,500,1A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 MN 600/5A,ENT.A40 MN,600,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.AB 15/5A,ENT.AB,15,5A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.AB 20/5A,ENT.AB,20,5A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.AB 30/5A,ENT.AB,30,5A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.AB 50/5A,ENT.AB,50,5A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.AB 60/5A,ENT.AB,60,5A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.AB 80/5A,ENT.AB,80,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.AB 100/5A,ENT.AB,100,5A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.AB 125/5A,ENT.AB,125,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.AB 150/5A,ENT.AB,150,5A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 30/5A,ENT.A30,30,5A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Var,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 30/1A,ENT.A30,30,1A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 40/1A,ENT.A30,40,1A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 50/1A,ENT.A30,50,1A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 60/1A,ENT.A30,60,1A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 75/1A,ENT.A30,75,1A,"1,25",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 80/1A,ENT.A30,80,1A,"1,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 100/1A,ENT.A30,100,1A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 125/1A,ENT.A30,125,1A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 150/1A,ENT.A30,150,1A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 200/1A,ENT.A30,200,1A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 250/1A,ENT.A30,250,1A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 300/5A,ENT.A30,300,5A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A30 400/5A,ENT.A30,400,5A,5,Yok,Belirsiz,Tip koduna göre,Belirsiz,Yok,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 75/1A,ENT.A40,75,1A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 80/1A,ENT.A40,80,1A,1,Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 100/1A,ENT.A40,100,1A,"1,25",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 125/1A,ENT.A40,125,1A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 150/1A,ENT.A40,150,1A,"2,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Var,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 200/1A,ENT.A40,200,1A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 250/1A,ENT.A40,250,1A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 300/1A,ENT.A40,300,1A,"2,5",Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 400/5A,ENT.A40,400,5A,5,Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 400/1A,ENT.A40,400,1A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 500/5A,ENT.A40,500,5A,5,Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 500/1A,ENT.A40,500,1A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 600/5A,ENT.A40,600,5A,5,Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Var,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 600/1A,ENT.A40,600,1A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 750/5A,ENT.A40,750,5A,"7,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Var,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A40 800/5A,ENT.A40,800,5A,10,Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Var,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60 600/5A,ENT.A60,600,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Belirsiz,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60 750/5A,ENT.A60,750,5A,5,Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Belirsiz,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60 800/5A,ENT.A60,800,5A,"7,5",Yok,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Belirsiz,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60 1000/5A,ENT.A60,1000,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Belirsiz,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60 1200/5A,ENT.A60,1200,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Belirsiz,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60 1250/5A,ENT.A60,1250,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Belirsiz,Yok,Var,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80 1000/5A,ENT.A80,1000,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80 1200/5A,ENT.A80,1200,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80 1250/5A,ENT.A80,1250,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Var,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80 1500/5A,ENT.A80,1500,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Var,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80 1600/5A,ENT.A80,1600,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80 2000/5A,ENT.A80,2000,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100 2000/5A,ENT.A100,2000,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100 2500/5A,ENT.A100,2500,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100 3000/5A,ENT.A100,3000,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100 3200/5A,ENT.A100,3200,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100 4000/5A,ENT.A100,4000,5A,30,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100 5000/5A,ENT.A100,5000,5A,30,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60T 500/5A,ENT.A60T,500,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60T 600/5A,ENT.A60T,600,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60T 750/5A,ENT.A60T,750,5A,5,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60T 800/5A,ENT.A60T,800,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60T 1000/5A,ENT.A60T,1000,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60T 1200/5A,ENT.A60T,1200,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60T 1250/5A,ENT.A60T,1250,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60T 1600/5A,ENT.A60T,1600,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A60T 2000/5A,ENT.A60T,2000,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80T 600/5A,ENT.A80T,600,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80T 800/5A,ENT.A80T,800,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80T 1000/5A,ENT.A80T,1000,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80T 1200/5A,ENT.A80T,1200,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80T 1250/5A,ENT.A80T,1250,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80T 1500/5A,ENT.A80T,1500,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80T 1600/5A,ENT.A80T,1600,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80T 2000/5A,ENT.A80T,2000,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A80T 2500/5A,ENT.A80T,2500,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100T 1000/5A,ENT.A100T,1000,5A,10,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100T 1500/5A,ENT.A100T,1500,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100T 1600/5A,ENT.A100T,1600,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100T 2000/5A,ENT.A100T,2000,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100T 2500/5A,ENT.A100T,2500,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100T 3000/5A,ENT.A100T,3000,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100T 3200/5A,ENT.A100T,3200,5A,15,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A100T 4000/5A,ENT.A100T,4000,5A,30,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Belirsiz
+Akım Trafoları,ENT.A (A.G.),ENT.A125T 2000/5A,ENT.A125T,2000,5A,15 / 30,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Nominal Güç 5A/1A: 15 / 30
+Akım Trafoları,ENT.A (A.G.),ENT.A125T 2500/5A,ENT.A125T,2500,5A,15 / 30,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Nominal Güç 5A/1A: 15 / 30
+Akım Trafoları,ENT.A (A.G.),ENT.A125T 3000/5A,ENT.A125T,3000,5A,15 / 30,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Nominal Güç 5A/1A: 15 / 30
+Akım Trafoları,ENT.A (A.G.),ENT.A125T 3200/5A,ENT.A125T,3200,5A,15 / 30,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Nominal Güç 5A/1A: 15 / 30
+Akım Trafoları,ENT.A (A.G.),ENT.A125T 4000/5A,ENT.A125T,4000,5A,15 / 30,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Nominal Güç 5A/1A: 15 / 30
+Akım Trafoları,ENT.A (A.G.),ENT.A125T 5000/5A,ENT.A125T,5000,5A,15 / 30,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Nominal Güç 5A/1A: 15 / 30
+Akım Trafoları,ENT.A (A.G.),ENT.A125T 6000/5A,ENT.A125T,6000,5A,15 / 30,Var,Belirsiz,Tip koduna göre,Belirsiz,Belirsiz,Yok,Yok,Yok,Nominal Güç 5A/1A: 15 / 30
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 23 100,ENS.AYS 23,100,5A,"1,25",Yok,Belirsiz,İç 20x30,Belirsiz,Var,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 23 150,ENS.AYS 23,150,5A,"1,5",Yok,Belirsiz,İç 20x30,Belirsiz,Var,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 23 200,ENS.AYS 23,200,5A,"2,5",Yok,Belirsiz,İç 20x30,Belirsiz,Var,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 23 300,ENS.AYS 23,300,5A,"3,75",Yok,Belirsiz,İç 20x30,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 58 400,ENS.AYS 58,400,5A,"2,5",Yok,Belirsiz,İç 50X80,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 58 500,ENS.AYS 58,500,5A,5,Yok,Belirsiz,İç 50X80,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 58 600,ENS.AYS 58,600,5A,5,Yok,Belirsiz,İç 50X80,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 58 800,ENS.AYS 58,800,5A,"7,5",Yok,Belirsiz,İç 50X80,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 58 1000,ENS.AYS 58,1000,5A,10,Yok,Belirsiz,İç 50X80,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 812 400,ENS.AYS 812,400,5A,"2,5",Yok,Belirsiz,İç 80X120,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 812 500-600-800,ENS.AYS 812,500-600-800,5A,"2,5",Var,Belirsiz,İç 80X120,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 812 1000,ENS.AYS 812,1000,5A,5,Var,Belirsiz,İç 80X120,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 816 1200,ENS.AYS 816,1200,5A,10,Var,Belirsiz,İç 80X160,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 816 1500-1600-2000,ENS.AYS 816,1500-1600-2000,5A,15,Var,Belirsiz,İç 80X160,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 816 2500-3000,ENS.AYS 816,2500-3000,5A,15,Var,Belirsiz,İç 80X160,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 816 4000,ENS.AYS 816,4000,5A,30,Var,Belirsiz,İç 80X160,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.AYS (Ayrılabilir Nüveli),ENS.AYS 816 5000,ENS.AYS 816,5000,5A,15,Var,Belirsiz,İç 80X160,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 23 100,ENS.CYS 23,100,5A,"1,5",Yok,Belirsiz,Maks. bara 20x30,Belirsiz,Var,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 23 150-200,ENS.CYS 23,150-200,5A,"1,5",Yok,Belirsiz,Maks. bara 20x30,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 23 300,ENS.CYS 23,300,5A,"2,5",Yok,Belirsiz,Maks. bara 20x30,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 58 400,ENS.CYS 58,400,5A,"2,5",Yok,Belirsiz,Maks. bara 50x80,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 58 500-600,ENS.CYS 58,500-600,5A,5,Yok,Belirsiz,Maks. bara 50x80,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 58 800,ENS.CYS 58,800,5A,"7,5",Yok,Belirsiz,Maks. bara 50x80,Belirsiz,Yok,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 88 1000,ENS.CYS 88,1000,5A,5,Var,Belirsiz,Maks. bara 80X80,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 812 400,ENS.CYS 812,400,5A,"1,5",Var,Belirsiz,Maks. bara 80x120,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 812 500-600-800,ENS.CYS 812,500-600-800,5A,"2,5",Var,Belirsiz,Maks. bara 80x120,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 812 1000,ENS.CYS 812,1000,5A,5,Var,Belirsiz,Maks. bara 80x120,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 816 1200,ENS.CYS 816,1200,5A,10,Var,Belirsiz,Maks. bara 80x120,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 816 1500-1600 2000-2500 3000,ENS.CYS 816,1500-1600 2000-2500 3000,5A,15,Var,Belirsiz,Maks. bara 80x120,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 816 4000,ENS.CYS 816,4000,5A,30,Var,Belirsiz,Maks. bara 80x120,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CYS (Ayrılabilir Nüveli),ENS.CYS 816 5000,ENS.CYS 816,5000,5A,15,Var,Belirsiz,Maks. bara 80x120,Belirsiz,Yok,Yok,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 25 3X60,ENS.3PMD 25,3x60,330 mV,Belirsiz,Belirsiz,Belirsiz,21 x 25,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 25 3X75,ENS.3PMD 25,3x75,330 mV,Belirsiz,Belirsiz,Belirsiz,21 x 25,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 25 3X100,ENS.3PMD 25,3x100,330 mV,Belirsiz,Belirsiz,Belirsiz,21 x 25,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 25 3X150,ENS.3PMD 25,3x150,330 mV,Belirsiz,Belirsiz,Belirsiz,21 x 25,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 25 3X200,ENS.3PMD 25,3x200,330 mV,Belirsiz,Belirsiz,Belirsiz,21 x 25,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 25 3X250,ENS.3PMD 25,3x250,330 mV,Belirsiz,Belirsiz,Belirsiz,21 x 25,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 33 3X250,ENS.3PMD 33,3x250,330 mV,Belirsiz,Belirsiz,Belirsiz,"30,5 x 29,5",Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 33 3X330,ENS.3PMD 33,3x300,330 mV,Belirsiz,Belirsiz,Belirsiz,"30,5 x 29,5",Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 33 3X400,ENS.3PMD 33,3x400,330 mV,Belirsiz,Belirsiz,Belirsiz,"30,5 x 29,5",Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 33 3X500,ENS.3PMD 33,3x500,330 mV,Belirsiz,Belirsiz,Belirsiz,"30,5 x 29,5",Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 33 3X600,ENS.3PMD 33,3x600,330 mV,Belirsiz,Belirsiz,Belirsiz,"30,5 x 29,5",Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 55 3X800,ENS.3PMD 55,3x800,330 mV,Belirsiz,Belirsiz,Belirsiz,"50,2 x 54",Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 55 3X1000,ENS.3PMD 55,3x1000,330 mV,Belirsiz,Belirsiz,Belirsiz,"50,2 x 54",Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 55 3X1250,ENS.3PMD 55,3x1250,330 mV,Belirsiz,Belirsiz,Belirsiz,"50,2 x 54",Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PMD (3 Fazlı, mV)",ENS.3PMD 55 3X1600,ENS.3PMD 55,3x1600,330 mV,Belirsiz,Belirsiz,Belirsiz,"50,2 x 54",Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PH (3 Fazlı, 5A)",ENS.3PH 20 3X100/5A,ENS.3PH 20,3X100,5A,1,Belirsiz,Belirsiz,Ø 20,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PH (3 Fazlı, 5A)",ENS.3PH 20 3X150/5A,ENS.3PH 20,3X150,5A,"1,25",Belirsiz,Belirsiz,Ø 20,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PH (3 Fazlı, 5A)",ENS.3PH 20 3X150/5A,ENS.3PH 20,3X160,5A,"1,5",Belirsiz,Belirsiz,Ø 20,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PH (3 Fazlı, 5A)",ENS.3PH 20 3X200/5A,ENS.3PH 20,3X200,5A,"1,5",Belirsiz,Belirsiz,Ø 20,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PH (3 Fazlı, 5A)",ENS.3PH 20 3X250/5A,ENS.3PH 20,3X250,5A,"2,5",Belirsiz,Belirsiz,Ø 20,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PH (3 Fazlı, 5A)",ENS.3PH 30 3X250/5A,ENS.3PH 30,3X250,5A,"2,5",Belirsiz,Belirsiz,Ø 30,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PH (3 Fazlı, 5A)",ENS.3PH 30 3X300/5A,ENS.3PH 30,3X300,5A,"3,75",Belirsiz,Belirsiz,Ø 30,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PH (3 Fazlı, 5A)",ENS.3PH 30 3X400/5A,ENS.3PH 30,3X400,5A,5,Belirsiz,Belirsiz,Ø 30,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PH (3 Fazlı, 5A)",ENS.3PH 30 3X500/5A,ENS.3PH 30,3X500,5A,5,Belirsiz,Belirsiz,Ø 30,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,"ENS.3PH (3 Fazlı, 5A)",ENS.3PH 30 3X600/5A,ENS.3PH 30,3X600,5A,5,Belirsiz,Belirsiz,Ø 30,Belirsiz,Belirsiz,Var,Belirsiz,Belirsiz,Belirsiz
+Akım Trafoları,ENS.CCT (Clamp Tipi),ENS.CCT-10,ENS.CCT-10,"30A, 50A, 75A",333mV,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Var (Sınıf 1),Belirsiz,Belirsiz,"Ölçüm 1A-In, maks 1,2In; 50/60Hz; CAT III; faz kayması + 1,5 ±1o; lineer sapma -1 ± 1%; maks gerilim 0,72 / 3 kV"
+Akım Trafoları,ENS.CCT (Clamp Tipi),ENS.CCT-16,ENS.CCT-16,"100A, 120A",333mV,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Var (Sınıf 1),Belirsiz,Belirsiz,"Ölçüm 1A-In, maks 1,2In; 50/60Hz; CAT III; faz kayması + 1,0 ±1o; lineer sapma -1 ± 1%; maks gerilim 0,72 / 3 kV"
+Akım Trafoları,ENS.CCT (Clamp Tipi),ENS.CCT-24,ENS.CCT-24,"150A, 200A, 250A, 300A",333mV veya 5A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Var (Sınıf 1),Belirsiz,Belirsiz,"Ölçüm 1A-In, maks 1,2In; 50/60Hz; CAT III; faz kayması + 0,5 ±0,5o; lineer sapma -1 ± 1%; maks gerilim 0,72 / 3 kV"
+Akım Trafoları,ENS.CCT (Clamp Tipi),ENS.CCT-36,ENS.CCT-36,"400A, 500A, 600A",333mV veya 5A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Var (Sınıf 1),Belirsiz,Belirsiz,"Ölçüm 1A-In, maks 1,2In; 50/60Hz; CAT III; faz kayması + 0,5 ±0,5o; lineer sapma -1 ± 1%; maks gerilim 0,72 / 3 kV"
+Akım Trafoları,CT Serisi,CT-25,CT-25,120 A (3 fazlı ölçüm) / 210 A (EPM-4A ile),Belirsiz,Belirsiz,Belirsiz,Belirsiz,"İç çap 15,5 mm (70 mm² kablo)",Belirsiz,Belirsiz,Var (Sınıf 1),Belirsiz,Belirsiz,Çevrim 1/1500; dış çap 43; -40/+70°C; 50Hz; maks. ölçülebilen akım cihaza göre 80A/120A/210A
+Akım Trafoları,CT Serisi,CT-80D,CT-80D,80 A,Belirsiz,Belirsiz,Belirsiz,Belirsiz,İç çap 13 mm (35 mm² kablo),Belirsiz,Belirsiz,Var (Sınıf 1),Belirsiz,Belirsiz,"Sadece ES-80L ile kullanılır; çevrim 1/1500; dış çap 47,5; -40/+70°C; 50Hz"

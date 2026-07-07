@@ -1,0 +1,18 @@
+Kategori,Seri,Model,Açıklama,Zaman Aralığı,Çekmede Gecikmeli,Bırakmada Gecikmeli,Açık Flaşör,Kapalı Flaşör,Aşağı Sayıcı,Yıldız-Üçgen,Sağ-Sol,Düşmede Gecikmeli,Kontrol Girişli Bırakmada Gecikmeli,Kontrol Girişli Çekmede Gecikmeli,Simetrik Flaşör,Basarken Bırakmada Gecikmeli Tetiklemeli,Bırakmada Bırakırken Gecikmeli Tetiklemeli,Pals,Çekmede Yükselen / Bırakmada Düşen Kenarda Gecikmeli,Yükselen-Düşen Kenarda Gecikmeli Bırakmada Tetiklemeli,Tetiklemeli,24 VAC/DC,230 VAC,12-240 VAC/DC,24-240 VAC/DC,DIN I,DIN II,DIN III
+Zaman Röleleri,ERTC,ERTC-01-DIN,Çok Fonksiyonlu Zaman Rölesi,1sn - 100 saat,Var,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Yok,Yok,Var
+Zaman Röleleri,MCB,MCB-30,Zaman Rölesi,2-30sn,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Var,Yok,Yok
+Zaman Röleleri,MCB,MCB-60,Zaman Rölesi,4-60sn,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Var,Yok,Yok
+Zaman Röleleri,MCB,MCB-7,Zaman Rölesi,"0,1sn - 30 saat",Var,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Var,Yok,Yok
+Zaman Röleleri,MCB,MCB-8,Zaman Rölesi (Hassas Ayarlı),"0,1sn - 999 dk",Var,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Var,Yok,Yok
+Zaman Röleleri,MCB,MCB-9,Çok Fonksiyonlu Zaman Rölesi,"0,5sn - 30 saat",Var,Var,Var,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok
+Zaman Röleleri,MCB,MCB-15,Çok Fonksiyonlu Zaman Rölesi,"0,1sn-100 saat",Var,Var,Yok,Yok,Yok,Yok,Yok,Yok,Opsiyonel,Yok,Var,Yok,Yok,Yok,Yok,Yok,Var,Yok,Yok,Yok,Var,Var,Yok,Yok
+Zaman Röleleri,MCB,MCB-20,Çok Fonksiyonlu Zaman Rölesi,"0,1sn-100 saat",Var,Var,Yok,Yok,Yok,Yok,Yok,Yok,Opsiyonel,Opsiyonel,Var,Opsiyonel,Opsiyonel,Yok,Yok,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Yok
+Zaman Röleleri,MCB,MCB-24,Çok Fonksiyonlu Zaman Rölesi,"0,1sn-100 saat",Var,Var,Yok,Yok,Yok,Yok,Yok,Yok,Opsiyonel,Opsiyonel,Var,Opsiyonel,Opsiyonel,Yok,Yok,Yok,Var,Yok,Yok,Yok,Var,Yok,Yok,Yok
+Zaman Röleleri,MCB,MCB-25,LCD Çok Fonksiyonlu Zaman Rölesi,"0,1sn- 999 saat",Var,Var,Var,Var,Yok,Yok,Yok,Yok,Opsiyonel,Yok,Var,Opsiyonel,Yok,Var,Opsiyonel,Opsiyonel,Var,Yok,Yok,Yok,Var,Var,Yok,Yok
+Zaman Röleleri,EF,EF-10,Flaşör Röle,"1-10sn / 0,5sn",Yok,Yok,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Var,Yok,Yok,Var,Yok,Yok
+Zaman Röleleri,SER,SER-YU,Yıldız-Üçgen Röle,Y:1-60sn / Y→∆:20-500ms,Yok,Yok,Yok,Yok,Yok,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Var,Yok,Yok,Yok,Var,Yok
+Zaman Röleleri,SSR,SSR-2X,Sağ-Sol Rölesi,"0,1sn - 60 saat",Yok,Yok,Yok,Yok,Yok,Yok,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Yok,Yok,Var,Yok,Yok
+Zaman Röleleri,DG,DG-10,Düşmede Gecikmeli,"0,6sn - 10dk",Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Yok,Yok,Yok,Var,Yok
+Zaman Röleleri,DG,DG-60,Düşmede Gecikmeli,1sn - 60dk,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Var,Yok,Yok,Yok,Var,Yok
+Zaman Röleleri,ERB,ERB-50,Bulaşık Makinesi Rölesi,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz
+Zaman Röleleri,ERB,ERB-50 BUZZER,Bulaşık Makinesi Rölesi,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz,Belirsiz

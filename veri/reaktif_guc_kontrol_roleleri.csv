@@ -1,0 +1,23 @@
+Kategori,Seri,Model,Kademe,Boyut (mm),Şönt Reaktör Sürme,SVC,OG (Orta Gerilim),1 Akım Trf. / 1 Faz,3 Akım Trf. / 3 Faz,1 Fazlı Kondansatör,3 Fazlı Kondansatör,Toplam/Görünür/Reaktif Güç Ölçümü,Aktif ve Reaktif Enerji Ölçümü,THD Koruma,1-19. Gerilim/Akım Harmonikleri,1-31. Gerilim/Akım Harmonikleri,1-51. Gerilim/Akım Harmonikleri,İki Ayrı Cosφ Ayarı,Otomatik Setup,Şifre Koruma,RS-485 Haberleşme,İç Isı Kontrolü,Kontak Çıkışı
+Reaktif Güç Kontrol Röleleri,RG-T,RG-6T,6,144x144,Yok,Yok,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok
+Reaktif Güç Kontrol Röleleri,RG-T,RG-8T,8,144x144,Yok,Yok,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok
+Reaktif Güç Kontrol Röleleri,RG-T,RG-12T,12,144x144,Yok,Yok,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok,Yok
+Reaktif Güç Kontrol Röleleri,RG3,RG3-12e,12,144x144,Yok,Yok,Yok,Yok,Var,Var,Var,Yok,Yok,Var,Yok,Yok,Yok,Yok,Var,Var,Yok,Yok,Yok
+Reaktif Güç Kontrol Röleleri,RG3,RG3-12C,12,144x144,Yok,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Yok,Opsiyonel,Var
+Reaktif Güç Kontrol Röleleri,RG3,RG3-12CS,12,144x144,Yok,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Opsiyonel,Var
+Reaktif Güç Kontrol Röleleri,RG3,RG3-15C,15,144x144,Yok,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Yok,Yok,Var
+Reaktif Güç Kontrol Röleleri,RG3,RG3-15CS,15,144x144,Yok,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RG3,RG3-15CL,15,144x144,Var,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Yok,Yok,Var
+Reaktif Güç Kontrol Röleleri,RG3,RG3-15CLS,15,144x144,Var,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RGP,RGP-9S,9,144x144,Var,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RGP,RGP-12S,12,144x144,Var,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Var,Var,Var,Var,Opsiyonel,Var
+Reaktif Güç Kontrol Röleleri,RGP,RGP-12SR,9 + SVC,144x144,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RGP,RGP-15SR,12 + SVC,144x144,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Var,Var,Var,Var,Opsiyonel,Var
+Reaktif Güç Kontrol Röleleri,RGA,RGA-15S,15,144x144,Var,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RGA,RGA-20S,20,144x144,Var,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RGA,RGA-24S,24,144x144,Var,Yok,Yok,Yok,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RGSR,RGSR-15S,12 + SVC,144x144,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RGSR,RGSR-20S,16 + SVC,144x144,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RGSR,RGSR-24S,20 + SVC,144x144,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RGA OG,RGA-20S-OG,24,144x144,Var,Yok,Var,Yok,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Yok,Var
+Reaktif Güç Kontrol Röleleri,RGSR OG,RGSR-24S-OG,20 + SVC,144x144,Var,Var,Var,Yok,Var,Var,Var,Var,Var,Var,Yok,Yok,Var,Var,Var,Var,Var,Yok,Var

@@ -1,0 +1,14 @@
+Kategori,Seri,Model,Boyut,Tip,Montaj Tipi,3~ Akım,1~ Akım,CT-25 (210A),Çift Demand,X/1 CT,X/5 CT,Demand,Çıkış Kontağı,Sabit Akım Klemensleri,24-250V AC/DC
+Ampermetreler,EPM-4,EPM-4A-72,72x72,"Direkt Ampermetre (CT-25 dahil, 210A)",Pano,Yok,Var,Var,Yok,Yok,Var,Var,Yok,Yok,Yok
+Ampermetreler,EPM-4,EPM-4A-96,96x96,"Direkt Ampermetre (CT-25 dahil, 210A)",Pano,Yok,Var,Var,Yok,Yok,Var,Var,Yok,Yok,Yok
+Ampermetreler,EPM-4,EPM-4C-48,48x48,Ampermetre (Kontak Çıkışlı),Pano,Yok,Var,Var,Yok,Yok,Var,Var,Var,Yok,Yok
+Ampermetreler,EPM-4,EPM-4C-72,72x72,Ampermetre (Kontak Çıkışlı),Pano,Yok,Var,Var,Yok,Yok,Var,Var,Var,Yok,Yok
+Ampermetreler,EPM-4,EPM-4C-96,96x96,Ampermetre (Kontak Çıkışlı),Pano,Yok,Var,Var,Yok,Yok,Var,Var,Var,Yok,Yok
+Ampermetreler,EPM-4,EPM-4C-OG-96,96x96,"Ampermetre (Kontak Çıkışlı, OG uygulaması)",Pano,Yok,Var,Yok,Yok,Yok,Var,Var,Var,Var,Yok
+Ampermetreler,EPM-4,EPM-4D-48,48x48,Ampermetre,Pano,Yok,Var,Yok,Yok,Yok,Var,Var,Yok,Yok,Yok
+Ampermetreler,EPM-4,EPM-4D-72,72x72,Ampermetre,Pano,Yok,Var,Yok,Yok,Yok,Var,Var,Yok,Yok,Yok
+Ampermetreler,EPM-4,EPM-4D-96,96x96,Ampermetre,Pano,Yok,Var,Yok,Yok,Yok,Var,Var,Yok,Yok,Yok
+Ampermetreler,EPM-4,EPM-4P-96,96x96,Ampermetre,Pano,Yok,Var,Var,Yok,Yok,Var,Var,Var,Yok,Yok
+Ampermetreler,EPM-R,EPM-R4C-CT25,Belirsiz,"Ampermetre (Kontak Çıkışlı, Ray tipi)",Ray,Yok,Var,Var,Yok,Yok,Var,Var,Var,Var,Yok
+Ampermetreler,EPM-4,EPM-14-96,96x96,Ampermetre (1 Fazlı),Pano,Yok,Var,Yok,Var,Var,Var,Yok,Yok,Var,Var
+Ampermetreler,EPM-4,EPM-34-96,96x96,Ampermetre (3 Fazlı),Pano,Var,Yok,Yok,Var,Var,Var,Yok,Yok,Var,Var

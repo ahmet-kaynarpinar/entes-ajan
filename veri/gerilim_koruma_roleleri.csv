@@ -1,0 +1,16 @@
+Kategori,Seri,Model,LCD Ekran,Nötr Kopması Algılama,3-Faz,Tek Faz,Düşük Gerilim,Aşırı Gerilim,Düşük Frekans,Yüksek Frekans,Gerilim Dengesizliği,Faz Yokluğu,Faz Sırası Koruması,Çekme Gecikmesi,Bırakma Gecikmesi,Açma Gecikmesi,Nötrsüz,Yardımcı Besleme,230 VAC,400 VAC,85-300 VAC,150-500 VAC,Röle (adet),DIN1 Ray Montaj,DIN2 Ray Montaj
+Gerilim Koruma Röleleri,GKRC,GKRC-31E LCD,Var,Yok,Var,Yok,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Yok,Yok,Yok,Var,1,Yok,Var
+Gerilim Koruma Röleleri,GKRC,GKRC-21E LCD,Var,Var,Var,Yok,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Yok,Var,Yok,1,Yok,Var
+Gerilim Koruma Röleleri,GKRC,GKRC-32E LCD,Var,Yok,Var,Yok,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Var,Yok,Yok,Yok,Yok,Var,2,Yok,Var
+Gerilim Koruma Röleleri,GKRC,GKRC-22E LCD,Var,Var,Var,Yok,Var,Var,Var,Var,Var,Var,Var,Var,Var,Yok,Yok,Yok,Yok,Yok,Var,Yok,2,Yok,Var
+Gerilim Koruma Röleleri,DGRC,DGRC-01,Yok,Var,Var,Yok,Var,Yok,Yok,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Belirsiz,Yok,Var
+Gerilim Koruma Röleleri,GKRC,GKRC-01,Yok,Var,Var,Yok,Yok,Var,Yok,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Belirsiz,Yok,Var
+Gerilim Koruma Röleleri,GKRC,GKRC-02,Yok,Var,Var,Yok,Var,Var,Yok,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Belirsiz,Yok,Var
+Gerilim Koruma Röleleri,GKRC,GKRC-02F,Yok,Var,Var,Yok,Var,Var,Yok,Yok,Yok,Var,Var,Var,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Belirsiz,Yok,Var
+Gerilim Koruma Röleleri,GKRC,GKRC-02FA,Yok,Yok,Var,Yok,Var,Var,Yok,Yok,Yok,Var,Var,Var,Yok,Var,Var,Var,Var,Yok,Yok,Yok,Belirsiz,Yok,Var
+Gerilim Koruma Röleleri,GKRC,GKRC-03,Yok,Yok,Var,Yok,Var,Var,Yok,Yok,Yok,Yok,Yok,Var,Yok,Var,Var,Yok,Yok,Var,Yok,Yok,Belirsiz,Yok,Var
+Gerilim Koruma Röleleri,GKRC,GKRC-03F,Yok,Yok,Var,Yok,Var,Var,Yok,Yok,Yok,Var,Var,Var,Yok,Var,Var,Yok,Yok,Var,Yok,Yok,Belirsiz,Yok,Var
+Gerilim Koruma Röleleri,GKRC,GKRC-M2,Yok,Var,Yok,Var,Var,Var,Yok,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Belirsiz,Yok,Var
+Gerilim Koruma Röleleri,MCC,MCC-1D,Yok,Var,Yok,Var,Var,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Yok,Yok,Var,Yok,Yok,Yok,Belirsiz,Var,Yok
+Gerilim Koruma Röleleri,MCC,MCC-3D,Yok,Var,Var,Yok,Var,Yok,Yok,Yok,Yok,Var,Yok,Var,Yok,Yok,Yok,Yok,Var,Yok,Yok,Yok,Belirsiz,Var,Yok
+Gerilim Koruma Röleleri,GKRC,GKRC-30F,Yok,Var,Var,Yok,Opsiyonel,Opsiyonel,Yok,Yok,Yok,Var,Opsiyonel,Yok,Yok,Var,Yok,Yok,Var,Yok,Yok,Yok,Belirsiz,Var,Yok

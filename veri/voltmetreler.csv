@@ -1,0 +1,12 @@
+Kategori,Seri,Model,Tip,Boyut,Seçilebilir 3-Faz,3~ Gerilim,1~ Gerilim,Max. Değer,Min. Değer,Çıkış Kontağı,24-250V AC/DC,Ön Montaj Panel
+Voltmetreler,EVM-3,EVM-3-48,Voltmetre,48x48,Yok,Yok,Var,Var,Var,Yok,Yok,Var
+Voltmetreler,EVM-3,EVM-3-72,Voltmetre,72x72,Yok,Yok,Var,Var,Var,Yok,Yok,Var
+Voltmetreler,EVM-3,EVM-3-96,Voltmetre,96x96,Yok,Yok,Var,Var,Var,Yok,Yok,Var
+Voltmetreler,EVM-3C,EVM-3C-48,Voltmetre (Kontak Çıkışlı),48x48,Yok,Yok,Var,Var,Var,Var,Yok,Var
+Voltmetreler,EVM-3C,EVM-3C-72,Voltmetre (Kontak Çıkışlı),72x72,Yok,Yok,Var,Var,Var,Var,Yok,Var
+Voltmetreler,EVM-3C,EVM-3C-96,Voltmetre (Kontak Çıkışlı),96x96,Yok,Yok,Var,Var,Var,Var,Yok,Var
+Voltmetreler,EVM-3S,EVM-3S-48,3-Faz Seçilebilir Voltmetre,48x48,Var,Yok,Yok,Yok,Yok,Yok,Yok,Var
+Voltmetreler,EVM-3S,EVM-3S-72,3-Faz Seçilebilir Voltmetre,72x72,Var,Yok,Yok,Yok,Yok,Yok,Yok,Var
+Voltmetreler,EVM-3S,EVM-3S-96,3-Faz Seçilebilir Voltmetre,96x96,Var,Yok,Yok,Yok,Yok,Yok,Yok,Var
+Voltmetreler,EVM-15,EVM-15-96,"Voltmetre (0,5 sınıfı)",96x96,Yok,Yok,Var,Yok,Yok,Yok,Var,Var
+Voltmetreler,EVM-3,EVM-35-96,"3-Faz Voltmetre (0,5 sınıfı)",96x96,Yok,Var,Yok,Yok,Yok,Yok,Var,Var
