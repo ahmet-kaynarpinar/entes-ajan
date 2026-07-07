@@ -937,7 +937,7 @@ elif st.session_state.aktif_sayfa == "asistan":
         
         with chat_container:
             for gecmis in st.session_state.gorunen_mesajlar:
-                with st.chat_message(gecmis["rol"]):
+                with st.chat_message(gecmis["rol"], avatar="👤" if gecmis["rol"] == "user" else "🤖"):
                     if gecmis["rol"] == "user":
                         st.markdown(gecmis["icerik"])
                     else:
@@ -948,10 +948,10 @@ elif st.session_state.aktif_sayfa == "asistan":
                 girdi = st.session_state.yeni_girdi
                 st.session_state.yeni_girdi = None
                 
-                with st.chat_message("user"):
+                with st.chat_message("user", avatar="👤"):
                     st.markdown(girdi)
 
-                with st.chat_message("assistant"):
+                with st.chat_message("assistant", avatar="🤖"):
                     with st.spinner("Katalog taranıyor..."):
                         cevap, filtre_kayitlari = bir_tur_isle(girdi)
                     yeni_mesaj = {
