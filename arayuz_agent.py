@@ -13,6 +13,7 @@ import os
 import re
 
 import streamlit as st
+import streamlit.components.v1 as components
 from openai import OpenAI
 
 import agent
@@ -599,7 +600,9 @@ def bir_tur_isle(kullanici_metni: str) -> tuple[str, list[dict]]:
                 return NAZIK_HATA_MESAJI, filtre_kayitlari
 
         son_msg = response.choices[0].message
-        return (son_msg.content or "Bir cevap üretilemedi."), filtre_kayitlari
+        final_content = son_msg.content or "Bir cevap üretilemedi."
+        final_content = agent.clean_content(final_content)
+        return final_content, filtre_kayitlari
 
     except Exception:
         st.session_state.api_mesajlari = snapshot
@@ -638,6 +641,216 @@ def filtre_ozeti_olustur(filtre_kayitlari: list[dict]) -> str:
 
 def asistan_mesaji_goster(mesaj: dict) -> None:
     st.markdown(mesaj["icerik"])
+
+
+# ----------------------------------------------------------------------------
+# Sesli etkileşim (Web Speech API — sadece tarayıcı, ek servis/API anahtarı yok)
+# ----------------------------------------------------------------------------
+def _ses_icin_metin_temizle(md_metni: str) -> str:
+    """Sesli okuma için markdown işaretlerini basitçe temizler."""
+    metin = re.sub(r"`{1,3}", "", md_metni)
+    metin = re.sub(r"\*\*|__|\*|_", "", metin)
+    metin = re.sub(r"^\s{0,3}#{1,6}\s*", "", metin, flags=re.MULTILINE)
+    metin = re.sub(r"^\s*[-•]\s+", "", metin, flags=re.MULTILINE)
+    metin = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", metin)
+    return metin.strip()
+
+
+_SES_PANELI_HTML_SABLONU = """
+<div id="entes-ses-panel" style="font-family:'Montserrat',sans-serif; display:flex; flex-wrap:wrap;
+     align-items:center; gap:10px; padding:6px 4px;">
+  <button id="entes-mic-btn" type="button" style="background:#FDC300;color:#333333;border:none;
+    border-radius:20px;padding:8px 16px;font-weight:700;font-size:12px;cursor:pointer;white-space:nowrap;">
+    🎤 Konuş
+  </button>
+  <label style="font-size:11px;color:#666666;display:flex;align-items:center;gap:4px;cursor:pointer;">
+    <input type="checkbox" id="entes-auto-read"> Cevapları otomatik oku
+  </label>
+  <button id="entes-stop-btn" type="button" style="background:#F0F0F0;color:#333333;
+    border:1px solid #D0D0D0;border-radius:20px;padding:6px 14px;font-weight:700;font-size:11px;
+    cursor:pointer;white-space:nowrap;">
+    ⏹ Sesi durdur
+  </button>
+  <select id="entes-voice-select" style="font-size:11px;padding:5px 8px;border-radius:6px;
+    border:1px solid #D0D0D0;max-width:220px;"></select>
+  <label style="font-size:11px;color:#666666;display:flex;align-items:center;gap:6px;">
+    Hız
+    <input type="range" id="entes-rate-slider" min="0.5" max="1.5" step="0.1" value="1.0" style="width:80px;">
+    <span id="entes-rate-val">1.0</span>
+  </label>
+  <span id="entes-ses-durum" style="font-size:11px;color:#999999;"></span>
+</div>
+<script>
+(function () {
+  var durum = document.getElementById('entes-ses-durum');
+  var LAST_KEY = 'entes_last_spoken_text';
+  var VOICE_KEY = 'entes_selected_voice';
+  var RATE_KEY = 'entes_speech_rate';
+  var AUTO_KEY = 'entes_auto_read';
+
+  // ---------------- KONUŞMA -> YAZI ----------------
+  var micBtn = document.getElementById('entes-mic-btn');
+  var TanimaSinifi = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+  if (!TanimaSinifi) {
+    micBtn.style.display = 'none';
+  } else {
+    var dinliyor = false;
+    micBtn.addEventListener('click', function () {
+      if (dinliyor) return;
+      try {
+        var tanima = new TanimaSinifi();
+        tanima.lang = 'tr-TR';
+        tanima.interimResults = false;
+        tanima.maxAlternatives = 1;
+        dinliyor = true;
+        micBtn.textContent = '🔴 Dinleniyor...';
+        tanima.onresult = function (event) {
+          var metin = event.results[0][0].transcript;
+          mesajGonder(metin);
+        };
+        tanima.onerror = function () {
+          durum.textContent = 'Ses tanıma hatası.';
+        };
+        tanima.onend = function () {
+          dinliyor = false;
+          micBtn.textContent = '🎤 Konuş';
+        };
+        tanima.start();
+      } catch (e) {
+        durum.textContent = 'Ses tanıma bu tarayıcıda desteklenmiyor.';
+        dinliyor = false;
+        micBtn.textContent = '🎤 Konuş';
+      }
+    });
+  }
+
+  function nativeDegerAta(eleman, deger) {
+    var proto = window.parent.HTMLTextAreaElement.prototype;
+    var setter = Object.getOwnPropertyDescriptor(proto, 'value').set;
+    setter.call(eleman, deger);
+    eleman.dispatchEvent(new Event('input', { bubbles: true }));
+  }
+
+  function mesajGonder(metin, deneme) {
+    deneme = deneme || 0;
+    try {
+      var pdoc = window.parent.document;
+      var textarea = pdoc.querySelector('[data-testid="stChatInputTextArea"]');
+      if (!textarea) {
+        durum.textContent = 'Sohbet kutusu bulunamadı.';
+        return;
+      }
+      textarea.focus();
+      nativeDegerAta(textarea, metin);
+      setTimeout(function () {
+        var gonderBtn = pdoc.querySelector('[data-testid="stChatInputSubmitButton"]');
+        if (gonderBtn && !gonderBtn.disabled) {
+          gonderBtn.click();
+          durum.textContent = '';
+        } else if (deneme < 5) {
+          mesajGonder(metin, deneme + 1);
+        } else {
+          durum.textContent = 'Mesaj gönderilemedi, lütfen tekrar deneyin.';
+        }
+      }, 120);
+    } catch (e) {
+      durum.textContent = 'Mesaj gönderilemedi: ' + e.message;
+    }
+  }
+
+  // ---------------- YAZI -> SES ----------------
+  var synth = window.speechSynthesis;
+  var autoCb = document.getElementById('entes-auto-read');
+  var stopBtn = document.getElementById('entes-stop-btn');
+  var voiceSelect = document.getElementById('entes-voice-select');
+  var rateSlider = document.getElementById('entes-rate-slider');
+  var rateVal = document.getElementById('entes-rate-val');
+
+  if (!synth) {
+    autoCb.disabled = true;
+    stopBtn.style.display = 'none';
+    voiceSelect.style.display = 'none';
+    rateSlider.style.display = 'none';
+  } else {
+    autoCb.checked = localStorage.getItem(AUTO_KEY) === '1';
+    var kayitliHiz = parseFloat(localStorage.getItem(RATE_KEY));
+    if (!isNaN(kayitliHiz)) {
+      rateSlider.value = kayitliHiz;
+      rateVal.textContent = kayitliHiz.toFixed(1);
+    }
+
+    autoCb.addEventListener('change', function () {
+      localStorage.setItem(AUTO_KEY, autoCb.checked ? '1' : '0');
+    });
+    rateSlider.addEventListener('input', function () {
+      rateVal.textContent = parseFloat(rateSlider.value).toFixed(1);
+      localStorage.setItem(RATE_KEY, rateSlider.value);
+    });
+    stopBtn.addEventListener('click', function () {
+      synth.cancel();
+    });
+
+    function seslerDoldur() {
+      var sesler = synth.getVoices();
+      if (!sesler.length) return;
+      var oncekiSecim = localStorage.getItem(VOICE_KEY);
+      voiceSelect.innerHTML = '';
+      sesler.forEach(function (ses) {
+        var opt = document.createElement('option');
+        opt.value = ses.name;
+        opt.textContent = ses.name + ' (' + ses.lang + ')';
+        voiceSelect.appendChild(opt);
+      });
+      if (oncekiSecim && sesler.some(function (s) { return s.name === oncekiSecim; })) {
+        voiceSelect.value = oncekiSecim;
+      } else {
+        var trSes = sesler.find(function (s) {
+          return s.lang && s.lang.toLowerCase().indexOf('tr') === 0;
+        });
+        if (trSes) voiceSelect.value = trSes.name;
+      }
+    }
+    seslerDoldur();
+    if (synth.onvoiceschanged !== undefined) {
+      synth.onvoiceschanged = seslerDoldur;
+    }
+    voiceSelect.addEventListener('change', function () {
+      localStorage.setItem(VOICE_KEY, voiceSelect.value);
+    });
+
+    function metniOku(metin) {
+      if (!metin) return;
+      synth.cancel();
+      var utter = new SpeechSynthesisUtterance(metin);
+      utter.lang = 'tr-TR';
+      utter.rate = parseFloat(rateSlider.value) || 1.0;
+      var secilenAd = voiceSelect.value;
+      var eslesen = synth.getVoices().find(function (s) { return s.name === secilenAd; });
+      if (eslesen) utter.voice = eslesen;
+      synth.speak(utter);
+    }
+
+    var guncelMetin = __ENTES_SON_MESAJ_JSON__;
+    var oncekiOkunan = localStorage.getItem(LAST_KEY);
+    if (guncelMetin && oncekiOkunan !== guncelMetin) {
+      localStorage.setItem(LAST_KEY, guncelMetin);
+      if (autoCb.checked) {
+        metniOku(guncelMetin);
+      }
+    }
+  }
+})();
+</script>
+"""
+
+
+def ses_paneli_goster(son_asistan_metni: str) -> None:
+    """Sesli giriş/çıkış kontrol panelini gömer (Web Speech API, Chrome hedefli)."""
+    html = _SES_PANELI_HTML_SABLONU.replace(
+        "__ENTES_SON_MESAJ_JSON__", json.dumps(son_asistan_metni)
+    )
+    components.html(html, height=90)
 
 
 # ----------------------------------------------------------------------------
@@ -964,6 +1177,16 @@ elif st.session_state.aktif_sayfa == "asistan":
                 st.session_state.gorunen_mesajlar.append({"rol": "user", "icerik": girdi})
                 st.session_state.gorunen_mesajlar.append(yeni_mesaj)
                 st.rerun()
+
+        # Sesli giriş/çıkış kontrol paneli (mikrofon, otomatik okuma, ses/hız seçimi)
+        son_asistan_mesaji = next(
+            (m for m in reversed(st.session_state.gorunen_mesajlar) if m["rol"] == "assistant"),
+            None,
+        )
+        son_asistan_metni = (
+            _ses_icin_metin_temizle(son_asistan_mesaji["icerik"]) if son_asistan_mesaji else ""
+        )
+        ses_paneli_goster(son_asistan_metni)
 
         # Input kutusunu col_chat'in altına, chat_container'ın dışına koyalım
         if girdi := st.chat_input("İhtiyacınızı tarif edin...", key="main_chat_input"):

@@ -1,0 +1,628 @@
+"urun_grubu","urun","baslik","problem_tarifi","cozum","etiketler","link"
+"Çözümler","değerlerin izlenmesi; elektrik tüketimi; enerji tüketim raporları; enerji tüketimi raporları; enerji tüketimlerinin; enerji verimliliği; enerjilerin ölçülmesi; haberleşme yazılımı; kompresörlerin","Tüp Dolum Tesisi Enerji Çözümü","Problem:
+Makine ve bölüm bazında
+enerji tüketimlerinin
+üst yönetime gerçek değerde aylık olarak verilememesi Teşhis:
+Kompresörler, soğutma kulesi, tanklar ve aydınlatmaların tükettikleri
+enerjilerin ölçülmesi
+ve bu
+değerlerin izlenmesi","Çözüm:
+24 adet
+Enerji ve Güç Ölçer
+,
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı. Enerji tüketen makine ve sistemlerin çektikleri değerler ölçüldü ve
+haberleşme yazılımı
+aracılığıyla izlendi. Böylece üst yönetimin istediği
+enerji tüketim raporları
+sağlıklı bir şekilde sağlanmış oldu. Ayrıca, ambar aydınlatmasında bir gecede 100 kWh gereksiz
+elektrik tüketimi
+olduğu fark edildi. Güvenlik görevlilerinin gece ambar ışığını kapatmadıkları ortaya çıktı. Ambara sensörlü lamba takılarak aylık 3.000 kWh gücünde ve 530 TL değerinde tasarruf sağlandı. Derin çekme presleri mesai saatinden 2 saat önce ısınması için devreye alınıyordu ve bu uygulama bir günde 280 kWh elektrik tüketimine sebep oluyordu. Preslerin soğumaması için ısıtma sistemi kuruldu. Aylık 7.500 kWh gücünde ve 1.300 TL değerinde tasarruf sağlandı. Aynı güçteki
+kompresörlerin
+birinde fazla elektrik tüketimi olduğu tespit edildi. Mekanik bakım yapıldı. Bakımdan sonra o bölümde üretim miktarı artmasına rağmen elektrik tüketimi 20.000 kWh azaldı ve 3.500 TL tasarruf edilmiş oldu. Sonuç:
+Tüm bu uygulamaların sonucunda aylık
+enerji tüketimi raporları
+sağlıklı olarak alınmaya başlandı, elektrik tüketim miktarı azaldı ve
+enerji verimliliği
+sağlanmış oldu. Cihaz yatırımı ise kendisini 4 ayda amorti etti.
+Enerji Doktoru ile enerjinizi her an her yerden izleyin! İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir? İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/tup-dolum-tesisi-enerji-cozumu/"
+"Çözümler","Haberleşme; Haberleşmeli cihazlar; Reaktif Güç Kontrol Rölelerinin; kompanzasyon; kompanzasyon izleme sisteminin; kompanzasyon panosundaki; kondansatör; sigorta","Banka Enerji Çözümü","Problem:
+400 şubesi olan bankanın merkezi bir
+kompanzasyon izleme sisteminin
+olmaması Teşhis:
+Haberleşme
+özelliğine sahip
+Reaktif Güç Kontrol Rölelerinin
+sisteme entegre edilmesi ve bunların tek bir merkezden izlenebileceği bir yazılımın kullanılması","Çözüm:
+400 adet
+Reaktif Güç Rölesi
+, 400 adet
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı.
+Haberleşmeli cihazlar
+kullanılmadan önce sınırlı sayıdaki teknik ekip tüm ülkeyi gezip arızalara müdahale etmeye çalışıyordu. Bu hem vakit kaybına yol açıyor hem de arızalara anında müdahale etme şansını ortadan kaldırıyordu.
+Reaktif Güç Rölesi
+ve
+Enerji İzleme Yazılımı
+aracılığıyla tüm şubelerin enerji parametrelerini
+kompanzasyon panosundaki
+kondansatör
+,
+sigorta
+ve
+kondansatörlerin
+sağlam olup olmadığını merkezdeki bilgisayardan izlemeye ve problem olan şubeleri tespit ederek anında müdahale edebilmeye başladılar. Sonuç:
+Tüm bu uygulamaların sonucunda 400 şubenin tamamında etkin
+kompanzasyon
+yapılmaya başlandı ve teknik servis ekibi daha etkin kullanılabilir hale geldi. Bu sayede işletme giderlerinde ciddi oranda tasarruf sağlanmış oldu.","No labels","https://www.entes.com.tr/banka-enerji-cozumu/"
+"Çözümler","Kompanzasyon sistemi; kompanzasyon; reaktif oranlar; trafo gücünün","Hastane Enerji Çözümü - 2","Problem:
+Hastanenin
+trafo gücünün
+yükseltilmesi ve ameliyathanenin yenilenmesi sonucunda
+kompanzasyon
+sisteminin ve ana trafo merkezinin izlenmesi ihtiyacı Teşhis:
+Hastaneyi besleyen 1200 kVAtrafonun çıkışına ve ameliyathane dağıtım panosuna
+Enerji Analizörü
+takılması.","Çözüm:
+2 adet
+Enerji Analizörü
+, 1 adet
+Reaktif Güç Kontrol Rölesi
+,
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı. 1200 kVAgücündeki trafonun tüm elektriksel parametreleri izlendi.
+Kompanzasyon sistemi
+ve
+reaktif oranlar
+bilgisayar üzerinden izlenerek değerler kayıt altına alındı. Ameliyathane bölümünün panosunda takılı olan Şebeke Analizörü aracılığıyla yazılım üzerinden verilerin izlenmesi ve kayıt alınması mümkün oldu. Sonuç:
+Enerji değerlerinin izlenmesi sonucunda tüketim miktarları net olarak hesaplanabildi ve hastane tükettiği enerjiyi daha verimli kullanmaya başladı. Ayrıca
+reaktif oranlar
+izlenerek işletmenin yanlış tarife kullandığı ve gereksiz yere cezaya girdiği anlaşılarak duruma müdahale edildi.","No labels","https://www.entes.com.tr/hastane-enerji-cozumu-2/"
+"Çözümler","Fotosel röleler; Zaman saati; aydınlatmalarda; dış aydınlatmalar; enerji; enerji tasarrufu; enerji verimliliği; fotosel gözler; fotosel rölelerin; iç aydınlatmaları; klasik fotosel şalter röleleri; klasik tip fotosel röleler; zaman saati; zaman saatinin","Banka Şubeleri Enerji Çözümü","Problem:
+Farklı bölge ve şehirlerde bulunan banka şubelerinin
+iç aydınlatmaları
+klasik
+zaman saati
+ile,
+dış aydınlatmalar
+ve reklam panolarının aydınlatma kontrolü
+klasik tip fotosel röleler
+ile yapılmaktaydı.
+Zaman saati
+ile yapılan kontrollerde gün uzaması ve kısalmasında yaşanan sapmaları önlemek üzere her ay bir servis elemanı şubeleri kontrol etmekte ve ayarları yenilemekteydi. Dış cephe ve reklam panolarının aydınlatması
+klasik fotosel şalter röleleri
+ile yapılmaktaydı.
+Fotosel röleler
+, geçici hava kararmalarında yanmakta, çevredeki ışık yansımaları nedeni ile de sönmekteydi. Ayrıca
+fotosel gözler
+toz ve yağmur nedeni ile arızalandığı için
+aydınlatmalarda
+sürekli yanma veya sönük kalma durumları sıklıkla yaşanmaktaydı.
+Bu nedenlerle 500 şubesi olan bankada
+enerji
+, verimsiz kullanılmakta zaman ve emek israfı olmaktaydı. Teşhis:
+Bu tip sorunların ortadan kalkması için
+Astronomik Zaman Rölesi
+kullanılması","Çözüm:
+Zaman saati
+ve
+fotosel rölelerin
+kullanılmasından kaynaklanan olumsuzlukların ortadan kaldırılması için, her şubede 1 adet
+Astronomik Zaman Rölesi
+kullanıldı.
+Astronomik Zaman Rölesi
+’nin iki kontağı ayrı ayrı programlandı. Reklam panolarını kontrol eden 1. kontak akşam hava karardığında çekip, gece 24:00'de bırakmakta olup, dış aydınlatma ve acil aydınlatma lambalarının kontrolünü yapan 2. kontak ise akşam hava karardığında çekip, sabah gün doğduğunda bırakmaktadır. Reklam panolarının zaman saatinin sokaklarda kimsenin olmadığı 24:00'den sonra kapanması ve gereksiz çalışması önlenmektedir. Ayrıca
+zaman saatinin
+gün uzama ve kısalmalarında erken/geç yanma ve sönme durumu olmamakta, böylelikle maksimum verim alınmaktadır. 500 şubede minimum 90.000 TL/yıl tasarruf sağlandı. Sonuç:
+Astronomik Zaman Rölesi
+sayesinde yılda 90.000 TL tutarında
+enerji tasarrufu
+yapıldı ve bankanın
+enerji verimliliği
+arttırılmış oldu.
+ENTES Astronomik Zaman Rölesini Öne Çıkaran 4 Özellik İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Yönetiminin Önemi İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Verimliliği Nedir? Enerji Tasarrufu Nedir? İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/banka-subeleri-enerji-cozumu/"
+"Çözümler","Enerji Analizörlerinden; haberleşme özellikli; kompanzasyon; kompanzasyon panoları","Telekomünikasyon Enerji Çözümü","Problem:
+İşletmenin bölgesel santral binalarındaki enerji tüketimlerinin ölçülmesi, ölçülen değerlerin bilgisayarda kayıt altına alınması ve
+kompanzasyon
+sisteminin
+bilgisayar üzerinden izlenebilmesi ihtiyacı. Teşhis:
+İşletmeye
+haberleşme özellikli
+Enerji Analizörleri
+ve
+Reaktif Güç Kontrol Röleleri
+takılması, ölçülen değerlerin kayıt altına alınarak takip edilmesi.","Çözüm:
+11 adet Enerji Analizörü, 8 adet
+Reaktif Güç Kontrol Rölesi
+,
+1 adet
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı. Radyolink istasyonlarında ve santrallerde bulunan
+kompanzasyon panoları
+teknik servis tarafından her ay kontrol edilemiyordu çünkü zaman yetmiyordu. Bilgisayar haberleşmeli
+Reaktif Güç Kontrol Röleleri
+aracılığıyla hem etkin
+kompanzasyon
+yapılmaya başlandı hem de tüm değerler tek bir noktadan izlenerek kayıt altına alındı. Bu sayede işletme giderleri büyük ölçüde azaldı. Merkezdeki gerilimin 170 V altına düşmesi durumunda alarm alınıp kısa zamanda müdahale olanağı sağlandı.
+Enerji Analizörlerinden
+alınan değerler sürekli olarak bilgisayarda kayıt altında tutulduğundan enerji kesinti sürelerinin tespiti yapılmaya başlandı. Müşteri şikayetlerinin bu doğrultuda değerlendirilmesi kolay hale geldi. Sonuç:
+Enerji değerlerinin izlenmesi sonucunda tüketim miktarları net olarak hesaplanabildi ve kayıp enerjiler hesaplanarak işletmenin enerji tasarrufu yapması sağlandı. Ayrıca teknik servis ekibinin sayısı azaltılarak işletme giderleri de azaltılmış oldu.
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Yönetiminin Önemi​ İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/telekomunikasyon-enerji-cozumu/"
+"Çözümler","enerji tüketimleri","Beyaz Eşya Fabrikası Enerji Çözümü - 2","Problem:
+Makine hatlarının
+enerji tüketimleri
+ölçülemediğinden maliyet hesabının doğru olarak yapılamaması Teşhis:
+İşletmeye bilgisayarla haberleşen
+Enerji Analizörleri
+takılması üretim bantlarının enerji tüketimlerinin izlenerek enerji değerlerinin kayıt altına alınması","Çözüm:
+47 adet
+Enerji Analizörü
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı. Haberleşme Yazılımı aracılığıyla ölçülen değerleri tek bir noktada kayıt altına alarak izleyebildiler. Rezistansla çalışan ve aşırı enerji tüketen poliüretan baskı makinelerinin üretime hazırlanması (ısıtılması) için gereken süreden 2-3 saat önce açıldığı tespit edilerek duruma müdahale edildi. Pazar günü makineler çalışmadığı ve üretim olmadığı halde bazı makine hatlarında günlük 660kW/saat oranında tüketimler tespit edildi ve gerekli uyarılar yapıldı. Sonuç:
+Makine hatlarının tükettikleri enerji değerleri ölçülerek ve haberleşme yazılımı aracılığıyla tek bir noktadan izlenerek gereksiz tüketimler tespit edildi. Gerekli düzeltmelerin yapılması sonucunda işletme hem enerjisini verimli kullanmaya başladı hem de enerji tasarrufu yapmış oldu.
+Enerji Analizörü (Şebeke Analizörü) Nedir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Analizörü (Şebeke Analizörü) Nedir? Enerji Analizörü Nerelerde Kullanılır? İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/beyaz-esya-fabrikasi-enerji-cozumu-2/"
+"Çözümler","reaktif enerji; reaktif enerji takibinin","Kereste Fabrikası Enerji Çözümü","Problem:
+İşletmede bulunan 6 adet
+kompanzasyon
+panosunda
+reaktif enerji takibinin
+etkin şekilde yapılamaması Teşhis:
+Haberleşme özelliğine sahip
+Reaktif Güç Kontrol Rölelerinin
+sisteme entegre edilmesi ve bunların tek bir merkezden izlenebileceği bir yazılımın kullanılması","Çözüm:
+6 adet
+Reaktif Güç Kontrol Rölesi
+, 2 adet
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı.
+Reaktif Güç Kontrol Rölesi
+ve
+Enerji İzleme Yazılımı
+aracılığıyla panoların
+reaktif enerji
+parametrelerini merkezdeki bilgisayardan izlemeye ve gerektiği anda rölelerin ayarlarına bilgisayar ortamından müdahale edebilmeye başladılar.
+Ayrıca bu iş için ayrılan personel de diğer işlerle uğraşmak için vakit bulmaya başladığından işçi performansı artmış oldu. Sonuç:
+Tüm bu uygulamaların sonucunda işletmede etkin
+kompanzasyon
+yapılmaya başlandı.
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Yönetiminin Önemi​ İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/kereste-fabrikasi-enerji-cozumu/"
+"Çözümler","ENTES Teknolojisi ile Tanışın; Harmonik oranları:; •Elektronik Cihaz Hasarı:; •Enerji Kaybı:; •Faz akımları:; •Fiziksel Müdahale Gerektirmez:; •Her Ortama Uyumlu:; •Kablolama ve Ekipman Ömrü:; •Nötr Akımları Azaltır:; •Nötr akımı:; •Sistem Verimliliği:; •Yangın Riski:","İşletmelerde %100 Hat Dengeleme Çözümü","Problem:
+Bir işletmede faz akımları 791A, 855A ve 889A olarak ölçülmüş, buna bağlı nötr akımı 123A olarak tespit edilmiştir. Harmonik oranları ise %10 seviyesindedir. Bu durum, elektronik kart arızaları ve kablolarda ısınma gibi sorunlara yol açmaktadır. Teşhis:
+Günümüz enerji yönetimi ve elektriksel sistemlerin verimliliği için hat dengesizliği ve yüksek nötr akımları kritik sorunların başında gelmektedir. ENTES
+Statik Var Generatör (SVG)
+ve
+Aktif Harmonik Filtre (AHF)
+cihazları, bu sorunlara yenilikçi ve yüksek teknolojiye dayalı çözümler sunarak %100 hat dengeleme özelliği ile fark yaratır.","Çözüm:
+İşletmeye 2 adet ENTES 150A Aktif Harmonik Filtre kuruldu ve gerekli parametre ayarları yapıldı. Sonuç:
+•
+Faz akımları:
+897A, 906A, 915A
+•
+Nötr akımı:
+123A'dan 36A'ya düştü
+•
+Harmonik oranları:
+%2 seviyesine indi
+Böylece nötr akımı %70 oranında düşürülerek sistem güvenliği sağlandı!
+Bu iyileşmeler sayesinde hem enerji verimliliği artmış hem de sistem daha güvenli hale geldi.
+ENTES Statik Var Generatör (SVG) ve Aktif Harmonik Filtre (AHF) cihazları, şebeke ve yük tarafındaki fazlar arası dengesizlikleri % olarak hesaplar ve düzeltmek için her faza uygun akımları elektronik olarak enjekte eder. Bu sayede:
+•
+Fiziksel Müdahale Gerektirmez:
+Geleneksel panolara yapılan müdahalelerin aksine, sorunları elektronik olarak giderir.
+•
+Her Ortama Uyumlu:
+Otellerde mono faz, sanayilerde iki faz yükler gibi farklı sistemlerde etkin çözümler sunar.
+•
+Nötr Akımları Azaltır:
+Faz dengesizliklerini ortadan kaldırarak enerji kaybını ve ekipman arızalarını minimize eder.
+ENTES Teknolojisi ile Tanışın
+ENTES Statik Var Generatör ve Aktif Harmonik Filtre cihazları, enerji verimliliğinizi optimize ederken sisteminizi daha güvenli hale getirir. Daha fazla bilgi almak ve size özel çözümlerimizi keşfetmek için bizimle iletişime geçin!","No labels","https://www.entes.com.tr/isletmelerde-100-hat-dengeleme-cozumu-entes-elektronik/"
+"Çözümler","Enerji Analizörleri; Enerji Analizörü; Enerji ölçme ve izleme sisteminin; O.G. girişindeki; enerji sayacı; enerji tüketimleri; reaktif cezaya; trafoya","Tekstil Fabrikası Enerji Çözümü","Problem:
+İşletmenin ana
+O.G. girişindeki
+sayacın ve bu sayaca bağlı 5 adet
+trafoya
+bağlı olan yüklerin enerji tüketimlerinin takip edilememesi ve
+kompanzasyon
+sisteminin izlenememesi Teşhis:
+İşletmenin ana girişine
+Enerji Analizörü
+bağlanması ve periyodik aralıklarla enerji değerlerinin ölçülmesi, her trafoya bağlı yüklere ve jeneratörlerin çıkışına Enerji ve Güç Ölçerlerin bağlanması, kompanzasyon sistemine haberleşme özellikli
+Reaktif Güç Kontrol Rölesi
+takılması","Çözüm:
+6 adet
+Enerji Analizörü
+, 53 adet
+Enerji ve Güç Ölçer
+, 3 adet
+Reaktif Güç Kontrol Rölesi
+, 1 adet
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı. Ana girişe bağlanan
+Enerji Analizörü
+ile BEDAŞ'ın
+enerji sayacı
+takip edilmeye başlandı ve elektrik faturasındaki tüketimin sağlaması yapıldı.
+Enerji Analizörleri
+aracılığıyla her bölümün enerji tüketimi takip edilmeye başlandı. 3 vardiya olarak çalışan işletmenin
+enerji tüketimleri
+karşılaştırıldı ve az tüketim yapan vardiyalar ile fazla tüketim yapan vardiyalar tespit edildi. Projede gösterilen bölümlerin enerji tüketimleri izlenerek iyileştirme çalışmaları yapıldı. Verimi yüksek motorların kullanılmasına, havalandırma ve soğutmayı daha verimli hale getiren tedbirlerin alınmasına karar verildi. Jeneratörlerin ürettikleri enerji değerleri izlenerek bunların işletmeye olan maliyetleri de hesaplandı. Kompanzasyon sistemine eklenen Reaktif Güç Kontrol Rölesi ile işletmenin
+reaktif cezaya
+girmesi engellendi ve bilgisayar haberleşmesi sayesinde ölçülen değerler uzaktan izlenebildi. Sonuç:
+Fabrika
+reaktif cezaya
+girmekten kurtulduğu için toplam enerji bedelinin %13'ü kadar tasarruf etmiş oldu.
+Enerji ölçme ve izleme sisteminin
+kurulmasıyla fazla enerji tüketen bölümler ve cihazlar belirlenerek bunlar aynı işi daha az enerji tüketerek yapan cihazlarla değiştirildi. Vardiyaların yeniden organize edilmesiyle işletme giderleri azaltıldı.
+Reaktif Ceza Nedir? Nasıl Engellenir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Üretime Ara Veren İşletmelerde Reaktif Ceza Riski İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/tekstil-fabrikasi-enerji-cozumu/"
+"Çözümler","enerji; enerji tükettiğinin ölçülmesi; enerjinin ölçülmesi; tasarruf","Boya Fabrikası Enerji Çözümü","Problem:
+Aylık 110.000 TL elektrik faturası ödenmesi Teşhis:
+Fabrikadaki buhar kazanlarının ve kazan dairesinin fazla
+enerji
+harcaması olasılığına karşı tükettikleri
+enerjinin ölçülmesi
+, fanların ve dalgıç pompalarının ne kadar
+enerji tükettiğinin ölçülmesi
+, kablo kayıplarının ne kadar enerji kaybına yol açtığının ölçülmesi ve tüm değerlerin izlenmesi","Çözüm:
+40 adet
+Enerji Analizörü
+,
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı.
+Enerji Analizörleri
+, buhar kazanlarının, dalgıç pompaların, fanların, pompa gruplarının girişine, yeraltı kablolarının hem girişine hem de çıkışına konularak çektikleri güçler izlendi.
+Enerji İzleme Yazılımı
+aracılığıyla ölçülen değerler bilgisayar üzerinden gerçek zamanlı olarak takip edildi. 2 x 11.0kWfanların ve 5 x 7.5kW pompa gruplarının yetersiz kaldığı anlaşıldı. Sistemde boru çapları genişletilip daha az enerji tüketmeleri sağlandı. Dalgıç pompaları 24 saat çalışıyordu. Pompa gücünü arttırarak daha az saat çalışması ve istenilen saatlerde çalışması sağlandı. Toprağın altından çekilen 85m.’lik, 120mm² kesitli kablonun çok ısındığı gözlenerek, onun yerine 240mm² kesitli kablo çekildi ve kablonun her iki ucunda bulunan
+Enerji Analizörleri
+aracılığıyla %20
+tasarruf
+sağlandığı gözlemlendi. 8 adet 22kw gücündeki fanlar yıldız-üçgen yol verme sistemi ile çalışıyordu. 4 adet invertör alındı ve 12.000 TL ödendi. Fanlara invertörlerle yumuşak yol verildi. 3 ay sonunda 12.000 TL tasarruf edilerek invertörlerin bedeli karşılanmış oldu. Makine içinde sirkülasyon fanlarının frekansları düşürülerek tasarrufa gidildi. Basınç tankı olmadığı için su motorlarının çok fazla enerji harcadığı tespit edildi. 2.000 TL değerinde basınç tankı alınarak sisteme eklendi. Böylece 80 TL/ gün tasarruf edildi. Sonuç:
+Tüm bu uygulamaların sonucunda aylık elektrik faturası bedeli 80.000 TL'ye düştü. İşletme %30 tasarruf etmiş oldu ve enerjisini bu oran kadar verimli kullanmaya başladı.
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Yönetiminin Önemi​ İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/boya-fabrikasi-enerji-cozumu/"
+"Çözümler","enerji değerlerinin ölçülmesi; gerilimlerin; şebekedeki gerilim yükselmesinden","Hastane Enerji Çözümü","Problem:
+Ultrason cihazı çalışırken ve renkli monitörde görüntü alınırken ultrason cihazının arızalanması, ultrason cihazını satan firmanın problemin
+şebekedeki gerilim yükselmesinden
+kaynaklandığını söylemesi ve her geldiklerinde servis ücreti almaları Teşhis:
+Hastanenin ana girişine
+Enerji Analizörü
+bağlanması ve periyodik aralıklarla
+enerji değerlerinin ölçülmesi","Çözüm:
+1 adet
+Enerji Analizörü
+, 1 adet
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı.
+Enerji Analizörü
+aracılığıyla 1 hafta boyunca 5 dakikalık periyotlarda gerilimler ölçüldü. Ölçülen değerler
+Enerji Analizörü
+’nün kalıcı hafızasına kaydedildi. Sonuçları içeren Excel raporu hastane yönetimine ve ultrason cihazını satan firmaya sunuldu. Bu raporda
+gerilimlerin
+söylendiği gibi yükselmediği tespit edildi. Satıcı firma cihazdan kaynaklanan bir sorun olduğunu kabul etti. Ultrason cihazının elektronik kartı değiştirildi ve sorun ortadan kalktı. Sonuç:
+Ultrason cihazının 1.000 $ maliyetli elektronik kartı ücretsiz olarak değiştirildi. Regülatör firmasının alınmasını önerdiği yeni regülatörler için istediği 2.500 TL ödenmemiş oldu. Ultrason cihazının bozulması sonucunda iptal edilen hasta randevuları ortadan kaldırılarak hasta mağduriyetleri önlendi.
+Akım Harmoniği Nedir? Akım Harmoniklerinin Şebekeye Etkisi Nedir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Aktif Harmonik Filtre Çözümü Nedir? İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/hastane-enerji-cozumu/"
+"Çözümler","Reaktif Güç Kontrol Rölelerinin; haberleşmeli cihazlar; kompanzasyon","Belediye Enerji Çözümü","Problem:
+90 bölgeye sahip belediyenin
+kompanzasyon
+takibinin etkin şekilde yapılamaması Teşhis:
+Bilgisayarla haberleşen
+Reaktif Güç Kontrol Rölelerinin
+sisteme entegre edilmesi ve bunların tek bir merkezden izlenebileceği bir yazılımın kullanılması","Çözüm:
+90 adet
+Reaktif Güç Kontrol Rölesi
+, 90 adet
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı.Bilgisayar
+haberleşmeli cihazlar
+kullanılmadan önce sınırlı sayıdaki teknik ekip tüm bölgeleri gezip arızalara müdahale etmeye çalışıyordu. Bu hem vakit kaybına yol açıyor hem de arızalara anında müdahale etme şansını ortadan kaldırıyordu.
+Reaktif Güç Kontrol Rölesi
+ve Enerji
+İzleme Yazılımı
+aracılığıyla tüm bölgelerin enerji parametrelerini merkezdeki bilgisayardan izlemeye ve gerektiği anda rölelerin ayarlarına bilgisayar ortamından müdahale edebilmeye başladılar.
+Ayrıca sayaç değerleri ile
+Reaktif Güç Kontrol Rölelerinin
+değerleri karşılaştırılarak arızalı sayaçları değiştirdiler. Sonuç:
+Tüm bu uygulamaların sonucunda 90 bölgenin tamamında etkin
+kompanzasyon
+yapılmaya başlandı ve teknik servis ekibi daha etkin kullanılabilir hale geldi. Bu sayede işletme giderlerinde ciddi oranda tasarruf sağlanmış oldu.
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Yönetiminin Önemi​ İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/belediye-enerji-cozumu/"
+"Çözümler","haberleşme yazılımı","Motor Fabrikası Enerji Çözümü","Problem:
+İşletmedeki döküm potalarının enerji maliyetine etkisinin ölçülememesi Teşhis:
+İşletmeye bilgisayarla haberleşen
+Enerji Analizörleri
+takılması üretim makinelerinin enerji tüketimlerinin izlenerek enerji değerlerinin kayıt altına alınması","Çözüm:
+130 adet
+Enerji Analizörü
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı. Haberleşme Yazılımı aracılığıyla ölçülen değerleri tek bir noktada kayıt altına alarak izleyebildiler. Trafo çıkışındaki sayacın enerji kayıtları kontrol edildi. Makinelere bağlanan
+Enerji Analizörleri
+aracılığıyla makine hatlarının çalışma performansları ölçüldü. 56 adet döküm potasının maden eriyinceye kadar geçen zaman ve harcanan enerji kayıt altına alınarak enerji maliyet hesapları yapıldı. Ayrıca erime süreleri kontrol edilerek bazı potaların sağırlaştıkları tespit edildi ve o potaların değiştirilmesi sağlandı. Maden erime sonrası boşaltılan ve rezistans ile sıcak tutulması sağlanan ikinci bölüm potalara bağlı olan Enerji Analizörleri aracılığıyla pota ısıtıcılarının arıza tespiti yapıldı ve enerji maliyetleri hesaplandı. Sonuç:
+Makine hatlarının tükettikleri enerji değerleri ölçülerek ve
+haberleşme yazılımı
+aracılığıyla tek bir noktadan izlenerek enerji maliyeti hesaplandı. Arızalı makineler değiştirilerek üretim performansı arttırıldı.
+Enerji Analizörü (Şebeke Analizörü) Nedir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Analizörü (Şebeke Analizörü) Nedir? Enerji Analizörü Nerelerde Kullanılır? İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/motor-fabrikasi-enerji-cozumu/"
+"Çözümler","Enerji İzleme Yazılımı; Reaktif Güç Kontrol Rölesi; enerji tasarrufu; kompanzasyon; kompanzasyon takibi","Jeotermal Enerji Tesisi Enerji Çözümü","Problem:
+Kuyuların çoğunda personel bulunmadığı için
+kompanzasyon takibi
+yapılamaması Teşhis:
+Haberleşme özelliğine sahip
+Reaktif Güç Kontrol Rölelerinin
+sisteme entegre edilmesi ve bunların tek bir merkezden izlenebileceği bir yazılımın kullanılması","Çözüm:
+80 adet
+Reaktif Güç Kontrol Rölesi
+, 80 adet
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı.
+Bilgisayar haberleşmeli cihazlar kullanılmadan önce personel yetersizliğinden dolayı kuyuların
+kompanzasyon takibi
+yapılamıyordu.
+Reaktif Güç Kontrol Rölesi
+ve
+Enerji İzleme Yazılımı
+aracılığıyla tüm kuyuların enerji parametrelerini merkezdeki bilgisayardan izlemeye ve gerektiği anda rölelerin ayarlarına bilgisayar ortamından müdahale edebilmeye başladılar.
+Ayrıca cosφ ve güç parametreleri izlenerek pompaların verimliliği de takip edilmeye başlandı. Sonuç:
+Tüm bu uygulamaların sonucunda 80 kuyunun tamamında etkin
+kompanzasyon
+yapılmaya başlandı ve pompaların verimliliği takip edilebilir hale geldi. Bu sayede tesiste %20 oranında
+enerji tasarrufu
+sağlandı.
+Kompanzasyon Doktoru ile Reaktif Bedel Ödeme Riskinizi Ortadan Kaldırın İsimli Blog Yazımızı Okumak İçin Tıklayın
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir?
+İsimli Blog Yazımızı Okumak İçin Tıklayın","No labels","https://www.entes.com.tr/jeotermal-enerji-tesisi-enerji-cozumu/"
+"Çözümler","Kompanzasyon panolarında; Reaktif güç kontrol rölesi,; aktif (kWh); akım polaritesi; bir fazlı kondansatörleri; enerji verimliliği; faz sırası; kompanzasyon; kompanzasyonu; kondansatör; reaktif bedel; reaktif bedeller; reaktif enerji; reaktif enerji bedelleri; reaktif enerjileri (kVAr); reaktif güç kontrol rölesi; reaktif güçlerin; Üç fazlı; üç fazlı yüklerin","Üniversite Enerji Çözümü","Problem:
+Büyük bir metropolde bulunan üniversitenin, birbirinden uzak yerlerde bulunan rektörlük, fakülteler, yüksek okullar, kütüphaneler, spor salonları, lojmanlar gibi 78 ayrı binanın
+kompanzasyon
+sistemlerindeki hata ve arızalar nedeni ile elektrik faturalarında yüksek
+reaktif bedeller
+ödemesi. Teşhis:
+Yapılan incelemelerde, belirtilen binaların %95'inde fazlardan çekilen akımlar ve
+reaktif güçlerin
+dengesiz olmasına rağmen, eski teknoloji tek fazlı reaktif güç kontrol rölelerin kullanılmış olduğu görüldü. Sadece dengeli
+üç fazlı yüklerin
+bulunduğu sistemlerde verimli çalışabilen bu rölelerle, dengesiz yüklerin olduğu üniversite binalarında bu cihazlardan verim alınamadığı anlaşıldı. Bilgisayarla haberleşebilen üç fazlı Reaktif Güç Kontrol Rölelerinin sisteme entegre edilmesine karar verildi.","Çözüm:
+78 Adet bina için 78 Adet 3 Fazlı
+Reaktif Güç Kontrol Rölesi
+, 78 Adet
+Gateway (Ağ Geçitleri) ve 1 adet Enerji İzleme Yazılımı kullanıldı. Birbirinden uzak yerlerdeki bu binaların
+kompanzasyon cihazları
+ve elektrik sayaçlarının endeks takibinin düzenli ve hızlı olarak yapılamadığı görüldü. Bu nedenle
+reaktif enerji bedelleri
+ancak fatura tahakkuk edip iş işten geçtikten sonra fark edilebilmekteydi. Kullanılan reaktif güç kontrol rölelerinin her türlü
+faz sırası
+ve
+akım polaritesi
+hatasında bile doğru
+kompanzasyon
+yapması özelliği sayesinde bağlantı hatalarından kaynaklanan
+kompanzasyon
+hataları önlendi.
+Kompanzasyon panolarında
+zaman içinde sigorta, kontaktör ve
+kondansatör
+arızaları oluşmaktaydı. Faz sırasındaki değişiklikler düzeltilememekte ve akımlarda oluşan dengesizlikler nedeni ile kompanzasyon düzgün olarak yapılamamaktaydı. Reaktif güç kontrol röleleri aracılığıyla kondansatör güçlerini ölçmesi ve arızalanan kondansatörleri göstermesi özelliği ile sigorta, kontaktör ve kondansatör arızaları zamanında tespit edilmeye başlandı. Sadece üç fazlı kondansatörlerin bulunduğu panolara, reaktif rölelerden yapılan ölçümlerle uygun değerde bir fazlı kondansatörler kullanılarak
+kondansatör
+dağılımı revize edildi.
+Üç fazlı
+ve
+bir fazlı kondansatörleri
+kontrol eden
+reaktif güç kontrol rölesi
+aracılığıyla dengesiz yüklerin
+kompanzasyonu
+da hatasız yapıldı.
+Reaktif güç kontrol rölesi,
+binalar ve tesislerin harcadığı
+aktif (kWh)
+ve
+reaktif enerjileri (kVAr)
+ve bu enerjilerin % oranlarını ölçerek, hangi tesislerde
+kompanzasyon
+oranlarının yükseldiğinin tespit edilmesi özelliği ile enerji tüketimlerinin doğruluğu kontrol edilmiş oldu. En önemlisi
+kompanzasyon
+oranlarının yükseldiği yerler anında tespit edilebildi. Problemin olduğu yere teknisyen yönlendirilerek arızalar derhal giderildi. Böylece elektrik faturasında
+reaktif bedel
+ödemekten kurtuldular. Sonuç:
+Üniversitenin 78 binasına 1 yılda toplam 945.000 TL olarak gelen elektrik faturaları bir yıl sonra %18 azalarak 775.000 TL'ye düşmüştür. Ayrıca
+reaktif enerji
+tüketiminin düşürülmesi ile
+enerji verimliliği
+de sağlanmış oldu.
+Enerji Yönetiminin Önemi İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Verimliliği Nedir? Enerji Tasarrufu Nedir? İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/universite-enerji-cozumu/"
+"Çözümler","enerji tüketimleri","Beyaz Eşya Fabrikası Enerji Çözümü","Problem:
+Makine bazında enerji maliyet hesabı yapılamadığından ürün başına düşen birim enerji maliyetlerinin hesaplanamaması. Teşhis:
+Fırın, klima ve bulaşık makinelerinin üretildiği fabrikalara
+Enerji Analizörleri
+takılması ve üretim bantlarının enerji tüketimlerinin izlenmesi.","Çözüm:
+50 adet
+Enerji Analizörü
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı.
+Haberleşme Yazılımı
+aracılığıyla ölçülen değerleri tek bir noktada kayıt altına alarak izleyebildiler. Üretim bantlarının enerji tüketimleri ölçülerek bu değerler toplam üretim miktarı ile ilişkilendirildi. Bu sayede ürün başına düşen birim enerji maliyeti hesaplanarak satış fiyatları yeniden belirlendi. Sonuç:
+Fabrikadaki üretim bantlarının
+enerji tüketimleri
+tek bir noktadan izlenerek ürün başına düşen birim enerji maliyeti hesaplandı. Böylece satış fiyatları revize edilerek karlılık arttırıldı.
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir? İsimli Blog Yazımızı Okumak İçin Tıklayın
+Enerji Yönetiminin Önemi​ İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/beyaz-esya-fabrikasi-enerji-cozumu/"
+"Çözümler","Dağıtım panosundaki; Enerji İzleme Yazılımı; elektrik sayacı; trafo merkezinin","İçki Fabrikası Enerji Çözümü","Problem:
+İşletmenin enerji tüketimlerinin ölçülmesi ve ölçülen değerlerin bilgisayarda kayıt altına alınması ihtiyacı Teşhis:
+İşletmeye bilgisayarla haberleşen
+Enerji Analizörleri
+takılması üretim makinelerinin enerji tüketimlerinin izlenerek enerji değerlerinin kayıt altına alınması","Çözüm:
+70 adet
+Enerji Analizörü
+,
+Gateway (Ağ Geçitleri)
+1 adet Sinyal Kuvvetlendirici ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı. İşletmede bulunan 4
+trafo merkezinin
+toplam elektrik tüketimlerini ana girişteki
+elektrik sayacı
+ile karşılaştırarak sayacın doğruluğu kontrol edildi.
+Dağıtım panosundaki
+ana çıkışların ve makine çıkışlarının enerji tüketimleri izlendi ve enerji değerleri kayıt altına alındı. Tesisin ana bölümlerinin harmonik değerleri incelendi ve bu değerler periyodik olarak izlenerek takip edilmeye başlandı.
+Jeneratörlerin devresine ve transfer devresine bağlanan Şebeke Analizörleri aracılığıyla jeneratörlerin performansı ve ürettikleri enerji değerleri izlenerek kayıt altına alındı. Sonuç:
+Enerji değerlerinin izlenmesi sonucunda tüketim miktarları net olarak hesaplanabildi ve kayıp enerjiler hesaplanarak işletmenin enerji tasarrufu yapması sağlandı.
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Yönetiminin Önemi​ İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/icki-fabrikasi-enerji-cozumu/"
+"Çözümler","enerji tüketimi; enerji tüketimleri; enerji verimliliği; enerjiyi; izleme sistemi","Mermer Fabrikası Enerji Çözümü","Problem:
+Yüksek miktarda
+enerji tüketimi Teşhis:
+Fabrikadaki mermer kesme, silme ve dizme makinelerinin fazla enerji harcaması olasılığına karşı tükettikleri
+enerjinin ölçülmesi ve bu değerlerin izlenmesi","Çözüm:
+23 adet
+Enerji Analizörü
+,
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı. 1 adet
+Enerji Analizörü
+, toplam gücü ve
+enerjiyi
+görmek için trafo ana girişine takıldı. Haberleşme için dağıtım panosundan 100 metre uzaklıktaki bilgisayara kablo çekildi. Daha sonra yüksek enerji tüketen makine ve bölümlere takılan 22 adet
+Enerji Analizörü
+ile haberleşilerek fabrikadaki
+enerji tüketimleri
+izlenmeye başlandı. Mermer kesme makinelerinin normal yükte çekmeleri gereken 100 A akım yerine 150 A akım çektikleri, aşırı zorlanma sebebiyle bıçakların balanslarının erken bozulduğu ve 1 saatte en az 12,5m2 mermer kesilmesi gerekirken 10 m2 mermer kesildiği tespit edildi. Gerekli ayarlar yapılarak bu sorun giderildi. Bir mermer kesme makinesi (ESTE) 110 kVAgücündedir. Saatte ortalama 80 kWhenerjiharcar. Yani bir ESTE saatte 12,5m2 mermer keserken 80kW enerji tüketir. Bu da 18 TL/saat tüketim bedeline yol açar. Kurulan
+izleme sistemi
+sayesinde ürün maliyeti hesaplarına
+enerji tüketimi
+de eklendi ve satış fiyatları revize edildi. Bir işçinin 5 dakika mesai kaybı yılda 26 saatlik işgücü kaybına yol açıyordu. Bu fabrika 26 saatte 2 konteyner ürün çıkarma kapasitesine sahipti ve bu da yaklaşık $ 30.000 değerindeydi. Makinelerin ne zaman çalıştıklarının izlendiğinin bilincinde olan işçiler mesai saatlerine riayet etmeye başladılar. Böylece işgücü kaybı ortadan kaldırıldı. Vardiya yapılması gerektiğinde, fabrikada 3 işçi çalışıyor olsa bile başlarında 1 vardiya mühendisi bulunması gerekmekteydi. Kurulan izleme sistemi sayesinde makinelerin çalışma saatleri ve tükettikleri enerji değerleri uzaktan takip edilebildiğinden dolayı vardiya mühendisine gerek kalmadı. Böylece işletme ayda en az 2.000 TL tasarruf etmiş oldu. Sonuç:
+Tüm bu uygulamaların sonucunda aylık
+enerji tüketimi
+azaldı ve
+enerji verimliliği
+sağlanmış oldu. Artan makine verimleri ve azalan testere balans maliyeti ile sistem kendisini 6 ayda amorti etti.
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Yönetiminin Önemi​ İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/mermer-fabrikasi-enerji-cozumu/"
+"Çözümler","Belirsiz","Kimya Hammadde Üretim Tesisi Enerji Çözümü","Problem:
+Oluşan akım harmoniklerinden dolayı sisteme sonradan dahil edilen kompresörlerin çalışmaması Teşhis:
+Müşterimiz, kimya hammadde üretimi yapmaktadır ve yeni satın aldığı 2 adet kompresörü devreye aldığında sistemde aşırı derecede akım harmonik oluşumu tarafımızca yapılan ölçümlerle tespit edilmiştir. 400 kW gücünde olan kompresörler devreye alındığında akım harmonik seviyeleri %48 olarak ölçülmüştür. Bu durum, cihazların korumaya geçerek kapanmasına neden olmaktadır ve tesis üretiminde aksaklıklara neden olmaktadır.","Çözüm:
+Müşterimize çözüm sunmak amacıyla, demo olarak 120A Entes Aktif Harmonik Filtre kurulumu gerçekleştirilmiş ve 2 hafta boyunca sistem test edilmiştir. Bu demo süreci, müşterinin şikayetlerinin tamamen ortadan kalktığını göstermiştir. Bunun üzerine, müşterimiz saha sağlıklı sonuç vermesi için 180A Aktif Harmonik Filtre sistemi satın almıştır.
+18.05.2023 tarihinde müşterimizin üretim tesisine gidilerek, soğutması ayarlanmış bir pano ve daha önce kurulan iki modülün yanı sıra ekstra bir modül ile 180A Aktif Harmonik Filtre kurulumu tamamlanmıştır. “Sistem incelendiğinde, Aktif Harmonik Filtrelerin olmadığı durumda
+akım harmoniklerinin
+%48 seviyelerine kadar çıktığı gözlemlenmiş olup kurulum sonrasında bu değerin %4 seviyesinde olduğu gözlemlenmiştir.
+Bu sayede sistem, harmonik sorunları minimum düzeye indirerek aktif olarak çalışmaktadır.
+Kurulum sonrasında üretim tesisinde ilgili yetkililere bakım ayarları ve cihaz hakkında bilgi verilmiştir.
+Ayrıca demo sürecindeki deneyimi sorulmuştur ve son kullanıcı olarak
+Aktif Harmonik Filtre
+cihazların oldukça kullanıcı dostu olduğu ve arayüzünün anlaşılır olduğu geribildiriminde bulunmuştur. Sonuç:
+Yapılan kurulum sonrasında elde edilen ölçüm sonuçları akım harmonik seviyesinin %4 seviyesinde olduğunu göstermiştir. Bu düşüş sonrasında kompresörler sorunsuz çalışmaktadır.","No labels","https://www.entes.com.tr/kimya-hammadde-uretim-tesisi-enerji-cozumu/"
+"Çözümler","enerji tüketimleri; enerji verimliliği ve tasarrufu; harmonik kirliliği","Dokuma Fabrikası Enerji Çözümü","Problem:
+Makine bazında maliyet hesabını mekanik sayaçlarla yapıyorlardı ve ortamda
+harmonik kirliliği
+vardı. Ölçü değerleri doğru değildi ve hesap yapılırken işçilik yüzünden işletme giderleri artıyordu. Teşhis:
+Makinelere
+Enerji ve Güç Ölçerlerin
+bağlanması, dağıtım panolarına
+Enerji Analizörlerinin
+takılması ve haberleşme yazılımı kullanılarak tüm değerlerin tek bir noktadan izlenebilmesi","Çözüm:
+135 adet makine için 135 adet
+Enerji ve Güç Ölçer
+, 15 adet dağıtım panosu için 15 adet
+Enerji Analizörü
+, 7 adet
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı.
+Haberleşme Yazılımı
+aracılığıyla ölçülen değerleri tek bir noktada kayıt altına alarak izleyebildiler. Ücretlendirme raporundan yola çıkarak 32 adet jakarlı dokuma makinesinin elektrik tüketiminin üretilen ürüne göre istenilen değerin üzerinde olduğu tespit edildi. Bu makinelerin T3 tarifesindeyken çalıştırılmasına karar verilerek ciddi miktarda tasarruf sağlandı.
+Enerji İzleme Yazılımının güç-zaman parametre eğrisinden yararlanılarak makinelerin hangi dakikalarda kapatılması gerekirken boşa çalıştıkları veya çalıştırılmaları gerekirken çalıştırılmadıkları zaman dilimleri anlaşıldı. Bu sonuçlara göre makinelerin çalışma ve durma zamanları tekrar belirlenerek makine disiplini sağlanmış oldu. Bu sayede iş ve işçi disiplini de sağlandı. Sonuç:
+Fabrikadaki makinelerin
+enerji tüketimleri
+tek bir noktadan izlenerek gerçek tüketim değerlerine ulaşıldı ve buna göre revizyonlar yapılarak
+enerji verimliliği ve tasarrufu
+sağlandı. Ayrıca bu değerlere ulaşmak için ilave bir ekibe gerek olmadığı anlaşıldığından işletme giderlerinden de tasarruf edildi.
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Enerji Yönetiminin Önemi​ İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/dokuma-fabrikasi-enerji-cozumu/"
+"Çözümler","Reaktif Güç Kontrol Rölesi; akım trafosu; enerji bedelinin; enerji ölçümü; fazlara; kondansatör; primer değeri; reaktif cezaya; röle; röleye; tasarruf","Zincir Mağaza Enerji Çözümü","Problem:
+58 şubesi olan mağaza zincirinin her ay
+reaktif cezaya
+girmesi. Teşhis:
+Yüklerin
+fazlara
+eşit ağırlıkta dağıtılmaması, yanlış
+akım trafosu
+seçimi, yanlış
+kondansatör
+seçimi,
+Reaktif Güç Kontrol Rölesi
+seçimindeki hata, diğer hatalı uygulamalar.","Çözüm:
+58 adet
+Reaktif Güç Rölesi
+, 58 adet
+Gateway (Ağ Geçitleri)
+ve 1 adet
+Enerji İzleme Yazılımı
+kullanıldı.
+Bodrum/Muğla bölgesindeki AVM'de faturalara trafo kaybı için %10 ilave ediliyordu.
+Reaktif Güç Rölesi
+kullanılarak
+reaktif cezaya
+girmeleri önlendi ve ayrıca %10 trafo kaybı bedelini ödemeye de gerek kalmadı.
+Bu mağazada ayda 20.000 TL
+tasarruf
+sağlanmış oldu. İzmir'de faaliyet gösteren AVM'deki mağazada herhangi bir teknik hataya rastlanılmadı. İnceleme sonucunda AVM yönetiminin faturaya %5 ilave yaptığı ortaya çıktı ancak sözleşmede böyle bir madde yoktu.
+Reaktif Güç Rölesi
+'nin yaptığı
+enerji ölçümü
+ile durumun ortaya çıkarılması sayesinde fazladan %5 fatura bedeli ödenmesine gerek kalmadı. AVM yönetimi mağazaya geriye dönük olarak iade faturası kesti ve 14.000 TL geri ödeme yapıldı. Ankara'daki AVM'de kullanılan farklı markaya ait
+röleye
+akım trafosu
+girişlerinin ters yapıldığı anlaşıldı. Bu
+röle
+çıkartılarak yerine
+akım trafosu
+ters bağlansa bile bunu algılayarak kendi içinde düzeltme özelliğine sahip olan
+Reaktif Güç Rölesi
+takıldı ve sorun giderildi.
+İstanbul'daki AVM'de faturaların 2 ile çarpıldığı ortaya çıktı, çünkü
+akım trafosunun
+primer değeri
+80 iken 160 olarak işlem yapıldığı anlaşıldı. AVM yönetimi hatayı kabul etti ve mağazaya 56.000 TL+ KDV bedelinde iade faturası kesilerek geri ödeme yapıldı. Sonuç:
+Tüm bu uygulamaların sonucunda 58 mağazanın tamamı
+reaktif cezaya
+girmekten kurtuldu ve mağaza zinciri aylık ödediği toplam
+enerji bedelinin
+%13'ü kadar
+tasarruf
+etti. Sisteme entegre edilen cihazlar ise kendilerini 1 ayda amorti ettiler.
+Enerji Takibi Nedir? Enerji İzlemenin Faydaları Nelerdir? İsimli Blog Yazımızı Okumak İçin Tıklayın.
+Reaktif Ceza Nedir? Nasıl Engellenir? İsimli Blog Yazımızı Okumak İçin Tıklayın.","No labels","https://www.entes.com.tr/zincir-magaza-enerji-cozumu/"

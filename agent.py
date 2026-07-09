@@ -7,12 +7,14 @@ import json
 import os
 import sys
 import time
+import re
 from pathlib import Path
 
 import pandas as pd
 from openai import OpenAI
 
 import filtrele as filtrele_module
+import sss
 
 BASE = Path(__file__).parent
 VERI_DIR = BASE / "veri"
@@ -126,6 +128,17 @@ def call_urun_filtrele(kriterler, kategori: str, kategori_df: dict[str, pd.DataF
 
     goster = sonuc.drop(columns=["Kategori"], errors="ignore")
     return f"{len(sonuc)} ürün bulundu:\n{goster.to_string(index=False)}" + atlanan_uyarisi
+
+
+def clean_content(text: str) -> str:
+    if not text:
+        return ""
+    text = text.strip()
+    # XML tag'leri ile gelen düşünce bloklarını at
+    text = re.sub(r'^<(thought|thinking|reasoning)>.*?</\1>\s*', '', text, flags=re.DOTALL | re.IGNORECASE)
+    # Sadece etiket sızmalarını baştan temizle ("thought\n" vb.)
+    text = re.sub(r'^(thought|thinking|reasoning):?\s+', '', text, flags=re.IGNORECASE)
+    return text.strip()
 
 
 MAX_TOKENS = 1500
@@ -265,7 +278,59 @@ def build_tools(kategori_df: dict[str, pd.DataFrame]) -> list[dict]:
                     "required": ["kriterler", "kategori"],
                 },
             },
-        }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "sss_ara",
+                "description": (
+                    "Müşteri bir ürünün kullanımı, kurulumu, ayarı veya bir sorunuyla "
+                    "ilgili DESTEK sorusu sorduğunda çağrılır (ürün SEÇİMİ değil). "
+                    "ENTES destek makalelerinden en uygun olanın çözümünü döndürür."
+                ),
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "urun": {
+                            "type": "string",
+                            "description": (
+                                'Müşterinin bahsettiği ürün/seri adı (örn. "MPR-53", '
+                                '"DCA", "EPM-4").'
+                            ),
+                        },
+                        "anahtar_kelime": {
+                            "type": "string",
+                            "description": (
+                                'Sorunun konusu/anahtar kelimeleri (örn. "kurulum", '
+                                '"C/T oranı", "yanlış akım gösteriyor").'
+                            ),
+                        },
+                    },
+                    "required": ["urun", "anahtar_kelime"],
+                },
+            },
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "referans_ara",
+                "description": (
+                    "Müşteri ENTES'in geçmiş projelerini/referanslarını sorduğunda çağrılır (örn. 'boya fabrikam var, bu alanda ne çözümler geliştirdiniz?', 'fabrikamda enerji tasarrufu için bugüne kadar neler yaptınız?'). Bir ürün ya da teknik sorun sorusu DEĞİL, geçmiş uygulama/referans sorusudur. İlgili referans projenin gerçek metnini döndürür."
+                ),
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "sektor_veya_konu": {
+                            "type": "string",
+                            "description": (
+                                "Müşterinin bahsettiği sektör/tesis türü veya konu (örn. \"boya fabrikası\", \"hastane\", \"tekstil\", \"enerji tasarrufu fabrika\")."
+                            ),
+                        },
+                    },
+                    "required": ["sektor_veya_konu"],
+                },
+            },
+        },
     ]
 
 
@@ -277,6 +342,7 @@ def main() -> None:
 
     kategoriler = load_kategoriler()
     kategori_df = load_kategori_dataframeleri()
+    sss_df = sss.load_sss()
     verisi_olan = sorted(kategori_df.keys())
     sistem_talimati = build_sistem_talimati(kategoriler, verisi_olan)
     tools = build_tools(kategori_df)
@@ -362,6 +428,25 @@ def main() -> None:
                                 args.get("kategori", ""),
                                 kategori_df,
                             )
+                    elif fn_name == "sss_ara":
+                        try:
+                            args = json.loads(tc.function.arguments)
+                        except json.JSONDecodeError:
+                            args = {}
+                        sonuc = sss.sss_ara(
+                            args.get("urun"),
+                            args.get("anahtar_kelime"),
+                            df=sss_df,
+                        )
+                    elif fn_name == "referans_ara":
+                        try:
+                            args = json.loads(tc.function.arguments)
+                        except json.JSONDecodeError:
+                            args = {}
+                        sonuc = sss.referans_ara(
+                            args.get("sektor_veya_konu", ""),
+                            df=sss_df,
+                        )
                     else:
                         sonuc = f"Bilinmeyen araç: {fn_name}"
 
@@ -405,7 +490,9 @@ def main() -> None:
             break
 
         if tam_cevap_parcalari:
-            print(f"\nAjan: {''.join(tam_cevap_parcalari).strip()}\n")
+            final_cevap = "".join(tam_cevap_parcalari)
+            final_cevap = clean_content(final_cevap)
+            print(f"\nAjan: {final_cevap}\n")
         else:
             print("\nAjan: (sonuçları işledim ama bir metin üretemedim, lütfen tekrar sorun.)\n")
 
