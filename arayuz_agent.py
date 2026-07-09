@@ -17,6 +17,7 @@ import streamlit.components.v1 as components
 from openai import OpenAI
 
 import agent
+import sss
 
 # ----------------------------------------------------------------------------
 # Sayfa ayarı + ENTES teması
@@ -520,7 +521,7 @@ NAZIK_HATA_MESAJI = (
 def kaynaklari_yukle():
     api_key = os.environ.get("OPENROUTER_API_KEY")
     if not api_key:
-        return None, None, None, None
+        return None, None, None, None, None
 
     client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=api_key)
     kategoriler = agent.load_kategoriler()
@@ -528,10 +529,11 @@ def kaynaklari_yukle():
     verisi_olan = sorted(kategori_df.keys())
     sistem_talimati = agent.build_sistem_talimati(kategoriler, verisi_olan)
     tools = agent.build_tools(kategori_df)
-    return client, sistem_talimati, tools, kategori_df
+    sss_df = sss.load_sss()
+    return client, sistem_talimati, tools, kategori_df, sss_df
 
 
-client, sistem_talimati, tools, kategori_df = kaynaklari_yukle()
+client, sistem_talimati, tools, kategori_df, sss_df = kaynaklari_yukle()
 
 if client is None:
     st.error(
@@ -584,6 +586,25 @@ def bir_tur_isle(kullanici_metni: str) -> tuple[str, list[dict]]:
 
                     filtre_kayitlari.append(
                         _filtre_kaydi_olustur(kriterler, kategori, call_buffer.getvalue())
+                    )
+                elif tc.function.name == "sss_ara":
+                    try:
+                        args = json.loads(tc.function.arguments)
+                    except json.JSONDecodeError:
+                        args = {}
+                    sonuc = sss.sss_ara(
+                        args.get("urun"),
+                        args.get("anahtar_kelime"),
+                        df=sss_df,
+                    )
+                elif tc.function.name == "referans_ara":
+                    try:
+                        args = json.loads(tc.function.arguments)
+                    except json.JSONDecodeError:
+                        args = {}
+                    sonuc = sss.referans_ara(
+                        args.get("sektor_veya_konu", ""),
+                        df=sss_df,
                     )
                 else:
                     sonuc = f"Bilinmeyen araç: {tc.function.name}"
