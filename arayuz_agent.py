@@ -506,6 +506,46 @@ color: #000000 !important;
 transform: translateY(-2px) !important;
 box-shadow: 0 4px 10px rgba(253, 195, 0, 0.2) !important;
 }}
+@media (max-width: 768px) {{
+  [data-testid="stAppViewBlockContainer"], [data-testid="stMainBlockContainer"] {{
+    max-width: 100% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }}
+  [data-testid="stHorizontalBlock"] {{
+    flex-direction: column !important;
+  }}
+  [data-testid="column"] {{
+    width: 100% !important;
+    min-width: 100% !important;
+    flex: 1 1 100% !important;
+  }}
+  .entes-utility, .entes-header {{
+    flex-wrap: wrap !important;
+    padding: 10px !important;
+    font-size: 10px !important;
+  }}
+  .entes-logo-text {{ font-size: 18px !important; }}
+  .shield-badge {{ font-size: 22px !important; }}
+  .slider-left h2 {{ font-size: 16px !important; }}
+  .service-icon {{ font-size: 18px !important; }}
+  .chat-welcome-icon {{ font-size: 20px !important; }}
+  #entes-voice-select, #entes-rate-slider {{
+    width: 100% !important;
+    max-width: 100% !important;
+  }}
+  div.stButton > button,
+  .back-to-home-wrapper div.stButton > button {{
+    width: 44px !important;
+    min-width: 44px !important;
+    height: 44px !important;
+  }}
+  .faq-container div.stButton > button {{
+    width: 100% !important;
+    min-width: 100% !important;
+    height: auto !important;
+  }}
+}}
 """
 
 NAZIK_HATA_MESAJI = (
