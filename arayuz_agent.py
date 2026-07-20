@@ -35,8 +35,9 @@ font-family: 'Montserrat', sans-serif !important;
 .entes-utility *, .entes-header *, .entes-hero *, .homepage-container *, [data-testid="stChatMessage"] *, [data-testid="stMarkdownContainer"] * {{
 font-family: 'Montserrat', sans-serif !important;
 }}
-.stApp {{
-background-color: #FFFFFF;
+.stApp, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {{
+background-color: #FFFFFF !important;
+color: #222222 !important;
 }}
 /* Sayfa üst boşluklarını sıfırlama */
 [data-testid="stAppViewBlockContainer"] {{
@@ -143,21 +144,21 @@ transition: all 0.2s ease;
 background-color: #333333;
 color: #FFFFFF !important;
 }}
-/* Mavi Hero Banner */
+/* Nötr Hero Banner */
 .entes-hero {{
-background: linear-gradient(135deg, #0A1C3A 0%, #162E5C 100%);
-background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 0), radial-gradient(rgba(255,255,255,0.05) 1px, transparent 0);
+background: linear-gradient(135deg, #F5F6F8 0%, #FFFDF0 100%);
+background-image: radial-gradient(rgba(0,0,0,0.035) 1px, transparent 0), radial-gradient(rgba(0,0,0,0.035) 1px, transparent 0);
 background-size: 20px 20px;
 background-position: 0 0, 10px 10px;
 padding: 25px 30px;
 border-bottom: 4px solid {ENTES_SARI};
-color: #FFFFFF;
+color: #222222;
 margin-top: 12px;
 margin-bottom: 12px;
 border-radius: 8px;
 }}
 .entes-hero h2 {{
-color: #FFFFFF !important;
+color: #222222 !important;
 font-size: 24px !important;
 font-weight: 800 !important;
 margin: 0 !important;
@@ -171,12 +172,18 @@ max-width: 100% !important;
 }}
 [data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) {{
 background-color: #F0F0F0 !important;
+color: #222222 !important;
 border: 1px solid #E2E2E2 !important;
 }}
 [data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarAssistant"]) {{
 background-color: #FFFFFF !important;
+color: #222222 !important;
 border: 1px solid #EAEAEA !important;
 box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03) !important;
+}}
+[data-testid="stChatMessage"], [data-testid="stChatMessageContent"] {{
+background-color: transparent !important;
+color: #222222 !important;
 }}
 [data-testid="stChatMessageContent"] [data-testid="stMarkdownContainer"] p,
 [data-testid="stChatMessageContent"] [data-testid="stMarkdownContainer"] li,
@@ -285,7 +292,7 @@ justify-content: center;
 z-index: 1;
 }}
 .tech-graphic {{
-background: rgba(10, 28, 58, 0.95);
+background: rgba(51, 51, 51, 0.95);
 border-radius: 8px;
 padding: 20px;
 width: 100%;
@@ -459,53 +466,6 @@ overflow-y: auto !important;
 padding-right: 15px !important;
 padding-left: 5px !important;
 }}
-.faq-container {{
-background-color: #FFFFFF;
-border: 1px solid #EAEAEA;
-border-radius: 12px;
-padding: 20px;
-height: calc(100vh - 350px) !important;
-overflow-y: auto !important;
-box-shadow: 0 4px 15px rgba(0,0,0,0.02);
-}}
-.faq-title {{
-font-size: 12px !important;
-font-weight: 800 !important;
-color: #333333 !important;
-text-transform: uppercase;
-letter-spacing: 0.5px;
-margin-bottom: 15px;
-border-bottom: 2px solid {ENTES_SARI};
-padding-bottom: 5px;
-}}
-/* FAQ Butonları Stili */
-.faq-container div.stButton > button p,
-.faq-container div.stButton > button span,
-.faq-container div.stButton > button {{
-background-color: #F8F9FA !important;
-color: #333333 !important;
-border: 1px solid #EAEAEA !important;
-border-radius: 8px !important;
-padding: 10px 12px !important;
-text-align: left !important;
-font-size: 11px !important;
-font-weight: 600 !important;
-line-height: 1.4 !important;
-white-space: normal !important;
-width: 100% !important;
-display: block !important;
-margin-bottom: 10px !important;
-transition: all 0.2s ease !important;
-}}
-.faq-container div.stButton > button:hover p,
-.faq-container div.stButton > button:hover span,
-.faq-container div.stButton > button:hover {{
-background-color: {ENTES_SARI} !important;
-border-color: {ENTES_SARI} !important;
-color: #000000 !important;
-transform: translateY(-2px) !important;
-box-shadow: 0 4px 10px rgba(253, 195, 0, 0.2) !important;
-}}
 @media (max-width: 768px) {{
   [data-testid="stAppViewBlockContainer"], [data-testid="stMainBlockContainer"] {{
     max-width: 100% !important;
@@ -534,16 +494,13 @@ box-shadow: 0 4px 10px rgba(253, 195, 0, 0.2) !important;
     width: 100% !important;
     max-width: 100% !important;
   }}
-  div.stButton > button,
-  .back-to-home-wrapper div.stButton > button {{
-    width: 44px !important;
-    min-width: 44px !important;
-    height: 44px !important;
-  }}
-  .faq-container div.stButton > button {{
+  [data-testid="stPopoverBody"] div.stButton > button {{
     width: 100% !important;
     min-width: 100% !important;
     height: auto !important;
+  }}
+  [data-testid="stPopoverBody"] {{
+    max-width: 92vw !important;
   }}
 }}
 """
@@ -586,8 +543,15 @@ if "api_mesajlari" not in st.session_state:
     st.session_state.api_mesajlari = [{"role": "system", "content": sistem_talimati}]
 if "gorunen_mesajlar" not in st.session_state:
     st.session_state.gorunen_mesajlar = []
-if "aktif_sayfa" not in st.session_state:
-    st.session_state.aktif_sayfa = "anasayfa"
+
+KARSILAMA_MESAJI = (
+    "Merhaba! Ben ENTES ürün seçim ve destek asistanınızım. "
+    "Size nasıl yardımcı olabilirim?"
+)
+if not st.session_state.gorunen_mesajlar:
+    st.session_state.gorunen_mesajlar.append(
+        {"rol": "assistant", "icerik": KARSILAMA_MESAJI}
+    )
 
 
 # ----------------------------------------------------------------------------
@@ -646,6 +610,12 @@ def bir_tur_isle(kullanici_metni: str) -> tuple[str, list[dict]]:
                         args.get("sektor_veya_konu", ""),
                         df=sss_df,
                     )
+                elif tc.function.name == "model_ara":
+                    try:
+                        args = json.loads(tc.function.arguments)
+                    except json.JSONDecodeError:
+                        args = {}
+                    sonuc = agent.call_model_ara(args.get("model_adi", ""), kategori_df)
                 else:
                     sonuc = f"Bilinmeyen araç: {tc.function.name}"
 
@@ -915,42 +885,100 @@ def ses_paneli_goster(son_asistan_metni: str) -> None:
 
 
 # ----------------------------------------------------------------------------
-# SAYFA SEÇİCİ VE YÖNLENDİRME MANTIĞI
+# ANASAYFA + YÜZEN SOHBET POPOVER
 # ----------------------------------------------------------------------------
-if st.session_state.aktif_sayfa == "anasayfa":
-    # 1. CSS Kurallarını Yükle (Yüzen Buton Dahil)
-    st.markdown(
-        COMMON_CSS + f"""
-        div.stButton > button {{
-            position: fixed !important;
-            bottom: 40px !important;
-            right: 40px !important;
-            width: 65px !important;
-            height: 65px !important;
-            border-radius: 50% !important;
-            background-color: {ENTES_SARI} !important;
-            color: {ENTES_KOYU} !important;
-            border: none !important;
-            font-size: 28px !important;
-            box-shadow: 0 6px 20px rgba(253, 195, 0, 0.4) !important;
-            z-index: 999999 !important;
-            display: flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            transition: all 0.2s ease !important;
-        }}
-        div.stButton > button:hover {{
-            transform: scale(1.08) !important;
-            background-color: #E2AE00 !important;
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
+# 1. CSS Kurallarını Yükle (Popover Tetikleyici Butonu Dahil)
+st.markdown(
+    COMMON_CSS + f"""
+    /* Popover tetikleyicisini sağ altta sabit yuvarlak bir butona çevir */
+    [data-testid="stPopover"] {{
+        position: fixed !important;
+        bottom: 40px !important;
+        right: 40px !important;
+        z-index: 999999 !important;
+        width: auto !important;
+    }}
+    [data-testid="stPopoverButton"] {{
+        width: 65px !important;
+        height: 65px !important;
+        border-radius: 50% !important;
+        background-color: {ENTES_SARI} !important;
+        color: {ENTES_KOYU} !important;
+        border: none !important;
+        font-size: 28px !important;
+        box-shadow: 0 6px 20px rgba(253, 195, 0, 0.4) !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        transition: all 0.2s ease !important;
+        padding: 0 !important;
+    }}
+    [data-testid="stPopoverButton"]:hover {{
+        transform: scale(1.08) !important;
+        background-color: #E2AE00 !important;
+    }}
+    [data-testid="stPopoverBody"] {{
+        width: 400px !important;
+        max-width: 92vw !important;
+        background-color: #FFFFFF !important;
+        color: #222222 !important;
+    }}
+    [data-testid="stPopoverBody"] * {{
+        color: #222222 !important;
+    }}
+    [data-testid="stPopoverBody"] [data-testid="stVerticalBlock"],
+    [data-testid="stPopoverBody"] [data-testid="stMarkdownContainer"] {{
+        background-color: #FFFFFF !important;
+    }}
+    .popover-chat-title {{
+        font-size: 14px !important;
+        font-weight: 800 !important;
+        color: #333333 !important;
+        margin-bottom: 8px;
+    }}
+    [data-testid="stPopoverBody"] [data-testid="stVerticalBlock"] {{
+        overflow-y: auto !important;
+        scrollbar-width: thin !important;
+    }}
+    [data-testid="stPopoverBody"] [data-testid="stVerticalBlock"]::-webkit-scrollbar {{
+        width: 6px !important;
+    }}
+    [data-testid="stPopoverBody"] [data-testid="stVerticalBlock"]::-webkit-scrollbar-thumb {{
+        background-color: #D6D6D6 !important;
+        border-radius: 3px !important;
+    }}
+    [data-testid="stPopoverBody"] [data-testid="stVerticalBlock"]::-webkit-scrollbar-track {{
+        background: transparent !important;
+    }}
+    [data-testid="stPopoverBody"] div.stButton > button {{
+        background-color: #F8F9FA !important;
+        color: #333333 !important;
+        border: 1px solid #EAEAEA !important;
+        border-radius: 8px !important;
+        padding: 10px 12px !important;
+        text-align: left !important;
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        line-height: 1.4 !important;
+        white-space: normal !important;
+        width: 100% !important;
+        display: block !important;
+        margin-bottom: 6px !important;
+        transition: all 0.2s ease !important;
+    }}
+    [data-testid="stPopoverBody"] div.stButton > button:hover {{
+        background-color: {ENTES_SARI} !important;
+        border-color: {ENTES_SARI} !important;
+        color: #000000 !important;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
-    # 2. ENTES Anasayfa HTML Yapısını Çiz
-    st.markdown(
-        """<div class="entes-utility">
+# 2. ENTES Anasayfa HTML Yapısını Çiz
+st.markdown(
+    """<div class="entes-utility">
 <div class="entes-utility-left">
 <span>🌐 Türkçe / English</span>
 <span>📞 +90 (216) 313 0110</span>
@@ -1073,193 +1101,64 @@ if st.session_state.aktif_sayfa == "anasayfa":
 </div>
 </div>
 </div>""",
-        unsafe_allow_html=True,
-    )
-    st.caption("Enerjinin olduğu her yerde • Cevaplar yalnızca ENTES 2023 kataloğundan gelir, uydurma yoktur.")
+    unsafe_allow_html=True,
+)
+st.caption("Enerjinin olduğu her yerde • Cevaplar yalnızca ENTES 2023 kataloğundan gelir, uydurma yoktur.")
 
-    # 3. Yüzen Chatbot Tetikleyici Butonu
-    if st.button("💬", key="float_chat_trigger"):
-        st.session_state.aktif_sayfa = "asistan"
-        st.rerun()
-
-elif st.session_state.aktif_sayfa == "asistan":
-    # 1. Asistan Sayfası CSS Kuralları
+# ----------------------------------------------------------------------------
+# Yüzen Sohbet Popovera: aynı sayfada, buton yakınında küçük bir pencere.
+# Anasayfa arkada değişmeden kalır; popover kendi kendine açılıp kapanır.
+# ----------------------------------------------------------------------------
+with st.popover("💬"):
     st.markdown(
-        COMMON_CSS + f"""
-        html, body, [data-testid="stAppViewContainer"] {{
-            overflow: hidden !important;
-            height: 100vh !important;
-        }}
-        [data-testid="stMainBlockContainer"] {{
-            padding-top: 0.5rem !important;
-            padding-bottom: 0.5rem !important;
-        }}
-        /* Sarı ENTES Tabelasını Küçültme (Asistan Sayfasına Özel) */
-        .entes-header {{
-            padding: 4px 20px !important;
-            margin-top: 0 !important;
-        }}
-        .entes-header .entes-logo-text {{
-            font-size: 22px !important;
-        }}
-        .entes-breadcrumbs-row {{
-            display: none !important;
-        }}
-        /* Geri Dön Butonunu Sol Üste Sabitleme */
-        .back-to-home-wrapper div.stButton > button {{
-            position: fixed !important;
-            top: 10px !important;
-            left: 12px !important;
-            width: 38px !important;
-            height: 38px !important;
-            border-radius: 50% !important;
-            display: flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            z-index: 999999 !important;
-            background-color: #FFFFFF !important;
-            color: {ENTES_KOYU} !important;
-            border: 1px solid #D0D0D0 !important;
-            padding: 0 !important;
-            font-weight: 700 !important;
-            font-size: 16px !important;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
-            transition: all 0.2s ease !important;
-        }}
-        .back-to-home-wrapper div.stButton > button:hover {{
-            background-color: {ENTES_SARI} !important;
-            border-color: {ENTES_SARI} !important;
-            color: {ENTES_KOYU} !important;
-        }}
-        .faq-title {{
-            font-size: 14px !important;
-            font-weight: 800 !important;
-            color: #333333 !important;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 15px;
-            border-bottom: 2px solid {ENTES_SARI};
-            padding-bottom: 5px;
-        }}
-        /* FAQ Butonları Stili */
-        [data-testid="stVerticalBlock"] div.stButton > button {{
-            background-color: #F8F9FA !important;
-            color: #333333 !important;
-            border: 1px solid #EAEAEA !important;
-            border-radius: 8px !important;
-            padding: 10px 12px !important;
-            text-align: left !important;
-            font-size: 12px !important;
-            font-weight: 600 !important;
-            white-space: normal !important;
-            width: 100% !important;
-            display: block !important;
-            margin-bottom: 5px !important;
-            transition: all 0.2s ease !important;
-        }}
-        [data-testid="stVerticalBlock"] div.stButton > button:hover {{
-            background-color: {ENTES_SARI} !important;
-            border-color: {ENTES_SARI} !important;
-            color: #000000 !important;
-        }}
-        </style>
-        """,
+        "<div class='popover-chat-title'>ENTES Katalog Asistanı</div>",
         unsafe_allow_html=True,
     )
 
-    st.markdown("<div class='back-to-home-wrapper'>", unsafe_allow_html=True)
-    if st.button("←", key="back_to_home"):
-        st.session_state.aktif_sayfa = "anasayfa"
+    # Mesajların kaydırılabilir alanı - st.container(height=...) ile.
+    # Küçük tutuluyor ki popover ilk açıldığında giriş kutusu kaydırmadan görünsün;
+    # içerik taştığında konteyner kendi içinde kaydırılabilir.
+    chat_container = st.container(height=280)
+
+    with chat_container:
+        for gecmis in st.session_state.gorunen_mesajlar:
+            with st.chat_message(gecmis["rol"], avatar="👤" if gecmis["rol"] == "user" else "🤖"):
+                if gecmis["rol"] == "user":
+                    st.markdown(gecmis["icerik"])
+                else:
+                    asistan_mesaji_goster(gecmis)
+
+        # Yeni mesaj gönderme işlemi
+        if "yeni_girdi" in st.session_state and st.session_state.yeni_girdi:
+            girdi = st.session_state.yeni_girdi
+            st.session_state.yeni_girdi = None
+
+            with st.chat_message("user", avatar="👤"):
+                st.markdown(girdi)
+
+            with st.chat_message("assistant", avatar="🤖"):
+                with st.spinner("Katalog taranıyor..."):
+                    cevap, filtre_kayitlari = bir_tur_isle(girdi)
+                yeni_mesaj = {
+                    "rol": "assistant",
+                    "icerik": cevap,
+                    "debug": filtre_ozeti_olustur(filtre_kayitlari),
+                }
+                asistan_mesaji_goster(yeni_mesaj)
+
+            st.session_state.gorunen_mesajlar.append({"rol": "user", "icerik": girdi})
+            st.session_state.gorunen_mesajlar.append(yeni_mesaj)
+
+    # Sesli giriş/çıkış kontrol paneli (mikrofon, otomatik okuma, ses/hız seçimi)
+    son_asistan_mesaji = next(
+        (m for m in reversed(st.session_state.gorunen_mesajlar) if m["rol"] == "assistant"),
+        None,
+    )
+    son_asistan_metni = (
+        _ses_icin_metin_temizle(son_asistan_mesaji["icerik"]) if son_asistan_mesaji else ""
+    )
+    ses_paneli_goster(son_asistan_metni)
+
+    if girdi := st.chat_input("İhtiyacınızı tarif edin...", key="main_chat_input"):
+        st.session_state.yeni_girdi = girdi
         st.rerun()
-    st.markdown("</div>", unsafe_allow_html=True)
-
-    # 2. Üst Header Bar'ı Çiz (Breadcrumbs yukarda, utility bar kaldırıldı)
-    st.markdown(
-        f"""
-<div class="entes-header" style="margin-top: 0; margin-bottom: 6px;">
-<div class="entes-logo-box">
-<h1 class="entes-logo-text">ENTES</h1>
-</div>
-<div class="entes-nav">
-<a href="#">Ürünler</a>
-<a href="#">Çözümler</a>
-<a href="#">Destek</a>
-<a href="#">Doğrulama</a>
-</div>
-<div>
-<a href="#" class="entes-header-btn">İletişim</a>
-</div>
-</div>
-<div style="font-size: 16px; font-weight: 800; color: #333333; margin-bottom: 8px;">ENTES Katalog Asistanına Hoş Geldiniz</div>
-""",
-        unsafe_allow_html=True,
-    )
-
-    # 3. İki Sütunlu Arayüz (Sol: Sohbet, Sağ: Sık Sorulan Sorular Paneli)
-    col_chat, col_faq = st.columns([2.5, 1.0], gap="large")
-
-    faq_sorulari = [
-        "96x96 kontak çıkışlı voltmetre modelleri hangileridir?",
-        "Haberleşmeli (RS-485) MPR serisi analizörler hangileridir?",
-        "MPR-53-OG ile normal MPR-53 arasındaki fark nedir?",
-        "Katalogda yer alan Class A kalite analizörü hangisidir?"
-    ]
-
-    with col_chat:
-        # Mesajların kaydırılabilir alanı - st.container(height=...) ile.
-        chat_container = st.container(height=490)
-        
-        with chat_container:
-            for gecmis in st.session_state.gorunen_mesajlar:
-                with st.chat_message(gecmis["rol"], avatar="👤" if gecmis["rol"] == "user" else "🤖"):
-                    if gecmis["rol"] == "user":
-                        st.markdown(gecmis["icerik"])
-                    else:
-                        asistan_mesaji_goster(gecmis)
-                        
-            # Yeni mesaj gönderme işlemi
-            if "yeni_girdi" in st.session_state and st.session_state.yeni_girdi:
-                girdi = st.session_state.yeni_girdi
-                st.session_state.yeni_girdi = None
-                
-                with st.chat_message("user", avatar="👤"):
-                    st.markdown(girdi)
-
-                with st.chat_message("assistant", avatar="🤖"):
-                    with st.spinner("Katalog taranıyor..."):
-                        cevap, filtre_kayitlari = bir_tur_isle(girdi)
-                    yeni_mesaj = {
-                        "rol": "assistant",
-                        "icerik": cevap,
-                        "debug": filtre_ozeti_olustur(filtre_kayitlari),
-                    }
-                    asistan_mesaji_goster(yeni_mesaj)
-
-                st.session_state.gorunen_mesajlar.append({"rol": "user", "icerik": girdi})
-                st.session_state.gorunen_mesajlar.append(yeni_mesaj)
-                st.rerun()
-
-        # Sesli giriş/çıkış kontrol paneli (mikrofon, otomatik okuma, ses/hız seçimi)
-        son_asistan_mesaji = next(
-            (m for m in reversed(st.session_state.gorunen_mesajlar) if m["rol"] == "assistant"),
-            None,
-        )
-        son_asistan_metni = (
-            _ses_icin_metin_temizle(son_asistan_mesaji["icerik"]) if son_asistan_mesaji else ""
-        )
-        ses_paneli_goster(son_asistan_metni)
-
-        # Input kutusunu col_chat'in altına, chat_container'ın dışına koyalım
-        if girdi := st.chat_input("İhtiyacınızı tarif edin...", key="main_chat_input"):
-            st.session_state.yeni_girdi = girdi
-            st.rerun()
-
-    with col_faq:
-        # Sağ Panel: Hazır Sorular (FAQ)
-        faq_container = st.container(height=490)
-        with faq_container:
-            st.markdown("<div class='faq-title'>Sık Sorulan Sorular</div>", unsafe_allow_html=True)
-            for i, soru in enumerate(faq_sorulari):
-                if st.button(soru, key=f"faq_btn_{i}", use_container_width=True):
-                    st.session_state.yeni_girdi = soru
-                    st.rerun()

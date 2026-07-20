@@ -8,6 +8,7 @@ import os
 import sys
 import time
 import re
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
@@ -66,7 +67,25 @@ def build_sistem_talimati(kategoriler: list[dict], verisi_olan: list[str]) -> st
         template
         .replace("{TUM_KATEGORILER}", tum_str)
         .replace("{VERISI_OLAN_KATEGORILER}", olan_str)
+        + "\n\nKonuşmanın sonunda müşteriyle bir ürün üzerinde netleşildiğinde (müşteri belirli bir modele karar verdiğinde), satın alma niyetini AÇIKÇA belirtmesini beklemeden şunu sor: 'Sizinle iletişime geçmemizi ister misiniz?' Müşteri 'evet' derse: tercih ettiği iletişim biçimini sor (telefon/e-posta/WhatsApp), sonra sırasıyla isim, firma, e-posta, telefon bilgilerini iste. Müşteri bir bilgiyi vermek istemezse veya atlarsa o alanı boş bırak, ISRAR ETME. Müşteri 'hayır, istemiyorum' derse hiçbir şey kaydetme, konuşmaya normal devam et. Tüm bilgiler toplandıktan (veya müşteri atladıktan) sonra lead_kaydet aracını çağır."
     )
+
+
+def call_model_ara(model_adi: str, kategori_df: dict[str, pd.DataFrame]) -> str:
+    """Tüm kategorilerin Model kolonunda büyük/küçük harf duyarsız, kısmi eşleşme arar."""
+    if not model_adi or not model_adi.strip():
+        return "Model adı belirtilmedi."
+    aranan = model_adi.strip().lower()
+    sonuclar = []
+    for kategori, df in kategori_df.items():
+        eslesen = df[df["Model"].astype(str).str.lower().str.contains(aranan, na=False, regex=False)]
+        if not eslesen.empty:
+            sonuclar.append(eslesen)
+    if not sonuclar:
+        return f"'{model_adi}' adında/kodunda bir model doğrulanmış veri tabanında bulunamadı. Farklı bir isimlendirme deneyebilir veya teknik kriterlerinizi belirtebilirsiniz."
+    import pandas as pd
+    tumu = pd.concat(sonuclar, ignore_index=True)
+    return f"{len(tumu)} eşleşme bulundu:\n{tumu.to_string(index=False)}"
 
 
 def call_urun_filtrele(kriterler, kategori: str, kategori_df: dict[str, pd.DataFrame]) -> str:
@@ -128,6 +147,28 @@ def call_urun_filtrele(kriterler, kategori: str, kategori_df: dict[str, pd.DataF
 
     goster = sonuc.drop(columns=["Kategori"], errors="ignore")
     return f"{len(sonuc)} ürün bulundu:\n{goster.to_string(index=False)}" + atlanan_uyarisi
+
+
+def call_lead_kaydet(isim: str, firma: str, email: str, telefon: str, tercih_iletisim: str, ilgilenilen_urun: str, not_: str, whatsapp_no: str, dosya="leads.csv") -> str:
+    dosya_yolu = BASE / dosya
+    dosya_yok = not dosya_yolu.exists()
+    
+    tarih = datetime.now().isoformat()
+    if not isim: isim = ""
+    if not firma: firma = ""
+    if not email: email = ""
+    if not telefon: telefon = ""
+    if not tercih_iletisim: tercih_iletisim = ""
+    if not not_: not_ = ""
+        
+    import csv
+    with open(dosya_yolu, "a", newline="", encoding="utf-8-sig") as f:
+        writer = csv.writer(f)
+        if dosya_yok:
+            writer.writerow(["tarih", "whatsapp_no", "isim", "firma", "email", "telefon", "tercih_iletisim", "ilgilenilen_urun", "not"])
+        writer.writerow([tarih, whatsapp_no, isim, firma, email, telefon, tercih_iletisim, ilgilenilen_urun, not_])
+        
+    return "Talep kaydedildi, satış ekibimiz en kısa sürede sizinle iletişime geçecek."
 
 
 def clean_content(text: str) -> str:
@@ -331,6 +372,64 @@ def build_tools(kategori_df: dict[str, pd.DataFrame]) -> list[dict]:
                 },
             },
         },
+        {
+            "type": "function",
+            "function": {
+                "name": "lead_kaydet",
+                "description": "Müşteriyle bir ürün üzerinde netleşildiğinde (müşteri belirli bir modele karar verdiğinde) çağrılır — müşterinin satın alma niyetini açıkça belirtmesini BEKLEME. Önce 'Sizinle iletişime geçmemizi ister misiniz?' diye sor. 'Evet' derse tercih ettiği iletişim biçimini, sonra isim/firma/e-posta/telefon bilgilerini sırayla iste, ısrar etme. 'Hayır' derse bu aracı ÇAĞIRMA. Müşterinin söylemediği hiçbir bilgiyi uydurma, boş bırak.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "isim": {
+                            "type": "string",
+                            "description": "Müşterinin adı soyadı."
+                        },
+                        "firma": {
+                            "type": "string",
+                            "description": "Müşterinin firma adı (boş olabilir)."
+                        },
+                        "email": {
+                            "type": "string",
+                            "description": "Müşterinin e-posta adresi."
+                        },
+                        "telefon": {
+                            "type": "string",
+                            "description": "Müşterinin tercih ettiği iletişim numarası (whatsapp numarasından farklı olabilir)."
+                        },
+                        "tercih_iletisim": {
+                            "type": "string",
+                            "description": "Tercih edilen iletişim yöntemi ('telefon' / 'e-posta' / 'whatsapp' / 'Belirsiz')."
+                        },
+                        "ilgilenilen_urun": {
+                            "type": "string",
+                            "description": "Konuşmadan çıkan ürün veya kategori adı."
+                        },
+                        "not": {
+                            "type": "string",
+                            "description": "Müşterinin ek talebi veya notu."
+                        }
+                    },
+                    "required": ["ilgilenilen_urun"]
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "model_ara",
+                "description": "Müşteri doğrudan bir model kodu veya adı söylediğinde (örn. 'MPR-47SE istiyorum') çağrılır — netleştirici soru sormadan ÖNCE bunu dene. Tüm kategorilerde Model kolonunda arama yapar. Tek bir net eşleşme bulunursa dönen TÜM özellikleri doğrudan sun, soru sorma. Birden fazla/karışık kategoriden eşleşme dönerse müşteriden netleştirme iste. Hiç eşleşme yoksa bunu söyle, teknik kriter sorup urun_filtrele'ye geç.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "model_adi": {
+                            "type": "string",
+                            "description": "Müşterinin söylediği model kodu/adı, örn. 'MPR-47SE'."
+                        }
+                    },
+                    "required": ["model_adi"]
+                }
+            }
+        }
     ]
 
 
@@ -446,6 +545,27 @@ def main() -> None:
                         sonuc = sss.referans_ara(
                             args.get("sektor_veya_konu", ""),
                             df=sss_df,
+                        )
+                    elif fn_name == "model_ara":
+                        try:
+                            args = json.loads(tc.function.arguments)
+                        except json.JSONDecodeError:
+                            args = {}
+                        sonuc = call_model_ara(args.get("model_adi", ""), kategori_df)
+                    elif fn_name == "lead_kaydet":
+                        try:
+                            args = json.loads(tc.function.arguments)
+                        except json.JSONDecodeError:
+                            args = {}
+                        sonuc = call_lead_kaydet(
+                            isim=args.get("isim", ""),
+                            firma=args.get("firma", ""),
+                            email=args.get("email", ""),
+                            telefon=args.get("telefon", ""),
+                            tercih_iletisim=args.get("tercih_iletisim", ""),
+                            ilgilenilen_urun=args.get("ilgilenilen_urun", ""),
+                            not_=args.get("not", ""),
+                            whatsapp_no="CLI-terminal",
                         )
                     else:
                         sonuc = f"Bilinmeyen araç: {fn_name}"
