@@ -650,7 +650,10 @@ def bir_tur_isle(kullanici_metni: str) -> tuple[str, list[dict]]:
         final_content = agent.clean_content(final_content)
         return final_content, filtre_kayitlari
 
-    except Exception:
+    except Exception as e:
+        import traceback
+        print(f"HATA (bir_tur_isle): {e}")
+        traceback.print_exc()
         st.session_state.api_mesajlari = snapshot
         return NAZIK_HATA_MESAJI, filtre_kayitlari
 
