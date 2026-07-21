@@ -162,12 +162,19 @@ def call_lead_kaydet(isim: str, firma: str, email: str, telefon: str, tercih_ile
     if not not_: not_ = ""
         
     import csv
-    with open(dosya_yolu, "a", newline="", encoding="utf-8-sig") as f:
-        writer = csv.writer(f)
-        if dosya_yok:
-            writer.writerow(["tarih", "whatsapp_no", "isim", "firma", "email", "telefon", "tercih_iletisim", "ilgilenilen_urun", "not"])
-        writer.writerow([tarih, whatsapp_no, isim, firma, email, telefon, tercih_iletisim, ilgilenilen_urun, not_])
-        
+    import os
+    print(f"[LEAD_KAYDET] Calisma dizini: {os.getcwd()}")
+    print(f"[LEAD_KAYDET] Hedef dosya (mutlak yol): {os.path.abspath(dosya_yolu)}")
+    try:
+        with open(dosya_yolu, "a", newline="", encoding="utf-8-sig") as f:
+            writer = csv.writer(f)
+            if dosya_yok:
+                writer.writerow(["tarih", "whatsapp_no", "isim", "firma", "email", "telefon", "tercih_iletisim", "ilgilenilen_urun", "not"])
+            writer.writerow([tarih, whatsapp_no, isim, firma, email, telefon, tercih_iletisim, ilgilenilen_urun, not_])
+        print(f"[LEAD_KAYDET] BASARILI: satir yazildi -> {os.path.abspath(dosya_yolu)}")
+    except Exception as e:
+        print(f"[LEAD_KAYDET] HATA: yazilamadi -> {e}")
+
     return "Talep kaydedildi, satış ekibimiz en kısa sürede sizinle iletişime geçecek."
 
 
