@@ -646,7 +646,22 @@ def bir_tur_isle(kullanici_metni: str) -> tuple[str, list[dict]]:
                 return NAZIK_HATA_MESAJI, filtre_kayitlari
 
         son_msg = response.choices[0].message
-        final_content = son_msg.content or "Bir cevap üretilemedi."
+        final_content = son_msg.content
+
+        if not final_content:
+            st.session_state.api_mesajlari.append({
+                "role": "user",
+                "content": "Lütfen önceki sonuçlara dayanarak kullanıcıya net bir yanıt oluştur.",
+            })
+            retry_response = agent.openrouter_cagir(client, st.session_state.api_mesajlari, tools)
+            if retry_response is not None:
+                retry_msg = retry_response.choices[0].message
+                st.session_state.api_mesajlari.append(retry_msg)
+                final_content = retry_msg.content
+
+        if not final_content:
+            return "Bir cevap üretilemedi.", filtre_kayitlari
+
         final_content = agent.clean_content(final_content)
         return final_content, filtre_kayitlari
 
