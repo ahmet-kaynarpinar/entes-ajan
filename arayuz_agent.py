@@ -616,6 +616,21 @@ def bir_tur_isle(kullanici_metni: str) -> tuple[str, list[dict]]:
                     except json.JSONDecodeError:
                         args = {}
                     sonuc = agent.call_model_ara(args.get("model_adi", ""), kategori_df)
+                elif tc.function.name == "lead_kaydet":
+                    try:
+                        args = json.loads(tc.function.arguments)
+                    except json.JSONDecodeError:
+                        args = {}
+                    sonuc = agent.call_lead_kaydet(
+                        isim=args.get("isim", ""),
+                        firma=args.get("firma", ""),
+                        email=args.get("email", ""),
+                        telefon=args.get("telefon", ""),
+                        tercih_iletisim=args.get("tercih_iletisim", ""),
+                        ilgilenilen_urun=args.get("ilgilenilen_urun", ""),
+                        not_=args.get("not", ""),
+                        whatsapp_no="Streamlit-web",
+                    )
                 else:
                     sonuc = f"Bilinmeyen araç: {tc.function.name}"
 
